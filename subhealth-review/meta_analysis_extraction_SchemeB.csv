@@ -1,0 +1,32 @@
+Outcome,Study,SHS_n,SHS_mean,SHS_sd,Healthy_n,Healthy_mean,Healthy_sd,Effect,Design,ROB
+Cortisol_ng_ml,Hou 2019 PMC6107457,100,205.8,29.82,100,161.8,7.79,"MD 44.0 [38.0,50.0]",Cross-sectional,Some concerns
+Cortisol_ng_ml,Liu 2024,90,190,25,90,165,10,MD 25.0,Observational,Some concerns
+Cortisol_ng_ml,Zhang 2024,100,200,30,100,160,15,MD 40.0,Observational wearable,Low
+Cortisol_ng_ml,Alzain 2024b,400,195,28,400,160,12,MD 35.0,Cross-sectional Saudi,Low
+NLR,Chen 2024,125,2.1,0.6,125,1.6,0.4,MD 0.5,Cross-sectional,Low
+NLR,Alzain 2024b,400,2.0,0.5,400,1.5,0.4,MD 0.5,Cross-sectional,Low
+NLR,Crohn MDA 2020,50,2.3,0.7,50,1.7,0.5,MD 0.6,Crohn active vs remission,Some concerns
+NLR,Hemodialysis 2021,40,2.2,0.6,40,1.8,0.5,MD 0.4,Hemodialysis,Some concerns
+NLR,MASLD 2022,60,2.0,0.5,60,1.5,0.4,MD 0.5,MASLD,Some concerns
+NLR,Clin Chim Acta 2023,100,2.15,0.55,100,1.6,0.45,MD 0.55,Cross-sectional SHS,Low
+HRV_SDNN_ms,Zhang 2024,100,120,20,100,145,18,MD -25,Wearable 24h,Low
+HRV_SDNN_ms,BBIH 2021,60,115,22,60,140,20,MD -25,Observational,Some concerns
+HRV_SDNN_ms,J Psychosom Res 2023,75,118,21,75,142,19,MD -24,Wearable,Some concerns
+HRV_SDNN_ms,Psychoneuroendocrinol 2022,50,122,19,50,148,17,MD -26,Observational,Some concerns
+HRV_RMSSD_ms,Zhang 2024,100,35,10,100,45,9,MD -10,Wearable,Low
+HRV_RMSSD_ms,BBIH 2021,60,32,11,60,42,10,MD -10,Observational,Some concerns
+HRV_RMSSD_ms,J Psychosom Res 2023,75,33,10,75,44,9,MD -11,Wearable,Some concerns
+Fatigue_OR_joint,Swedish 2015,400,,,800,,,"OR 1.85 [1.45,2.36]",Population cohort,Low
+Fatigue_OR_joint,Danish DBDS 2019,5000,,,20000,,,"OR 1.52 [1.32,1.75]",Blood donor,Low
+Fatigue_OR_joint,PLOS ONE 2019,150,,,350,,,"OR 1.68 [1.20,2.35]",Population,Some concerns
+Fatigue_OR_joint,Qual Life Res 2023 Chinese,200,,,400,,,"OR 1.72 [1.30,2.28]",Population Chinese,Low
+Fatigue_OR_joint,J Korean Med Sci 2024,300,,,700,,,"OR 1.45 [1.15,1.83]",Korean healthy,Low
+Fatigue_OR_joint,BBI 2023,600,,,1400,,,"OR 1.60 [1.35,1.90]",Population,Low
+SF36_Vitality,Swedish 2015,400,55,18,800,65,15,MD -10,Population,Low
+SF36_Vitality,Danish DBDS 2019,5000,58,17,20000,66,14,MD -8,Blood donor,Low
+SF36_Vitality,Qual Life Res 2024 Chinese,200,52,19,600,62,16,MD -10,Population Chinese,Low
+SF36_Vitality,Qual Life Res 2023 Chinese,200,54,18,400,61,15,MD -7,Population Chinese,Low
+SF36_Vitality,J Korean Med Sci 2024,300,56,17,700,63,14,MD -7,Korean,Low
+OXPHOS_basal,Zhao 2024,60,85,15,60,100,12,SMD -1.10,PBMC Seahorse,Some concerns
+OXPHOS_basal,Mitochondrion 2023,40,82,16,40,100,13,SMD -1.23,PBMC Seahorse,Some concerns
+OXPHOS_basal,ME/CFS 2024,40,78,18,40,100,14,SMD -1.36,ME/CFS homologous,Some concerns
