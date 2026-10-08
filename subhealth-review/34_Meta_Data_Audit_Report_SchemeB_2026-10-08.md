@@ -71,3 +71,7 @@ The topic, manuscript architecture, and analysis package remain usable. The curr
 ## 2026-10-08 online-source addendum
 
 The attachment inventory and independently verifiable online full-text rows are recorded in `37_Attachment_Identity_and_Online_Extraction_Addendum_SchemeB_2026-10-08.md` and `meta_analysis_verified_online_extraction_SchemeB_2026-10-08.csv`. Three direct SHS/cortisol records now have table-level values verified from official online full text, but they were deliberately **not** written into the historical extraction CSV in this audit. They have different SHS grouping rules and possible cohort overlap, so they must be reconciled before any pooled estimate is recalculated.
+
+## PDF byte audit update — 2026-10-08
+
+The user subsequently uploaded all 11 source PDFs inside `subhealth_pdfs_2026-10-08.zip`. All files passed ZIP integrity testing and were text-extracted with pypdf; the manifest, SHA-256 values, page/table locators, and findings are recorded in `38_PDF_Byte_Extraction_Audit_SchemeB_2026-10-08.md`. The formerly unresolved `file.pdf` is verified as the Danish Blood Donor Study paper (PMID 30921429; DOI 10.1371/journal.pone.0214468). The historical Meta CSV remains unchanged; the verified rows are stored in the separate extraction addendum until outcome harmonisation and cohort-overlap review are complete.

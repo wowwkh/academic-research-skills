@@ -2,16 +2,16 @@
 
 ## Scope and evidence state
 
-This addendum records the 11 PDF filenames supplied in the current turn and the article identities that can be verified independently from PubMed, PMC, ScienceDirect, publisher pages, or DOI records. The PDF bytes themselves are **not mounted in the current workspace**: `/home/user/uploads/` is absent and no copy of these filenames exists under the repository. Therefore this is **not** a claim that `pdfinfo` or `pdftotext` successfully ran on the user-uploaded files.
+This addendum records the 11 PDF filenames supplied by the user. Initially the PDF bytes were not mounted, so the first version used PubMed/PMC/publisher verification. The user subsequently uploaded `subhealth_pdfs_2026-10-08.zip` to the GitHub branch; all 11 PDFs were then extracted successfully. The byte-level manifest, SHA-256 values, PDF page locators, and updated findings are now recorded in `38_PDF_Byte_Extraction_Audit_SchemeB_2026-10-08.md`.
 
-Where an official HTML/full-text record exposed a table, the extraction is recorded below and in `meta_analysis_verified_online_extraction_SchemeB_2026-10-08.csv`. These rows are an **online-source verification addendum**; they do not overwrite `meta_analysis_extraction_SchemeB.csv`, the historical provisional input. The historical CSV and its forest plots remain provisional until the actual PDFs (or an equivalent source copy with page-level checking) are available.
+The companion CSV contains the quantitative extraction rows. These rows are an **audited extraction addendum**; they do not overwrite `meta_analysis_extraction_SchemeB.csv`, the historical provisional input. The historical CSV and its forest plots remain provisional until outcome harmonisation, cohort-overlap checking, and a reproducible re-analysis are complete.
 
 Rules applied:
 
 1. No PMID, DOI, title, or effect was guessed from a filename.
 2. Every verified article below has an exact title, a PubMed link, and a DOI link.
 3. A record that is identifiable but not eligible for the direct SHSQ-25 meta-analysis is labelled `bridge`, `context`, or `exclude-unrelated`.
-4. `file.pdf` remains unresolved; no bibliographic identity is assigned to it.
+4. `file.pdf` is now verified as the Dinh et al. Danish Blood Donor Study paper; its PDF hash and Table 4 locator are recorded in file 38.
 5. Derived mean differences and confidence intervals are explicitly labelled as derived and are not silently substituted into the historical meta-analysis.
 
 ## Attachment-to-article identity inventory
@@ -48,11 +48,12 @@ Rules applied:
 
 ### 4. `file.pdf`
 
-- **Identity status:** unresolved.
-- **Exact article title:** **not verified — no title assigned**.
-- **PMID/PubMed:** **not verified — no PubMed link assigned**.
-- **DOI:** **not verified — no DOI link assigned**.
-- **Action:** do not cite, extract, or include in any analysis until the file is re-uploaded with readable bytes or its title/identifier is supplied.
+- **Identity status:** verified after byte-level extraction.
+- **Exact article title:** *Low-grade inflammation is negatively associated with physical Health-Related Quality of Life in healthy individuals: Results from The Danish Blood Donor Study (DBDS)*.
+- **PMID/PubMed:** [30921429](https://pubmed.ncbi.nlm.nih.gov/30921429/).
+- **DOI:** [10.1371/journal.pone.0214468](https://doi.org/10.1371/journal.pone.0214468).
+- **PDF locator:** abstract on PDF p. 1; multivariable regression Table 4 on PDF p. 8.
+- **Action:** retain as a low-grade-inflammation/SF-12 bridge record, not as an SHSQ-25 or fatigue-OR row. The separate correction is PMID [31136577](https://pubmed.ncbi.nlm.nih.gov/31136577/), DOI [10.1371/journal.pone.0216339](https://doi.org/10.1371/journal.pone.0216339).
 
 ### 5. `ijerph16173007.pdf`
 
@@ -149,12 +150,10 @@ This is a reproducibility aid, not a replacement for author-reported adjusted es
 
 ## What remains blocked
 
-- The original user-uploaded PDF bytes are still unavailable to the workspace, so PDF page rendering, file hashes, and direct PDF-to-text checks are pending.
-- `file.pdf` cannot be identified without re-upload or a supplied title/identifier.
 - No unverified Liu 2024, Zhang 2024, Alzain 2024b NLR/HRV/cortisol, Chen 2024 NLR, SHS HRV, or SHS PBMC-Seahorse row is promoted into the analysis by this addendum.
 - `meta_analysis_extraction_SchemeB.csv`, historical forest plots, `GRADE_Summary_of_Findings_SchemeB.csv`, and prose numerical claims remain provisional and must not be described as final evidence.
-- After the actual files become readable, each online extraction must be rechecked against the PDF page/table, sample exclusions, assay timing, units, and whether the same cohort appears in another report.
+- The three direct cortisol rows require cohort-overlap checking, harmonisation of SHS definitions, assay timing/unit review, and a fresh reproducible pooled analysis before they can replace the historical provisional results.
 
 ## Required next input
 
-Please re-upload the 11 PDFs as one ZIP (preserving the filenames) or attach them again in a way that mounts the file bytes into the workspace. A ZIP is preferred because it lets the extraction log record a hash and prevents `file.pdf` from losing its identity.
+No further upload is required for the 11 supplied PDFs. The immediate next research step is a data-reconciliation pass: decide which verified direct and bridge estimands meet the protocol, remove invalid historical rows, then regenerate Meta, forest plots, GRADE, and numerical prose. The raw ZIP is retained only in Git history for provenance and should not remain as a permanent public source artifact.

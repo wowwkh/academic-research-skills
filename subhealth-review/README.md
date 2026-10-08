@@ -5,7 +5,7 @@
 > 当前阶段：**方案B框架和草稿包已建立；当前处于 Meta 数据真实性核验阶段，尚未达到投稿或最终结果状态。**  
 > 流程依据：`academic-paper` skill Phase0-7 + `deep-research` systematic-review PRISMA-P/PRISMA 2020 + `academic-paper-reviewer` 5维度模拟审稿
 
-> **Integrity warning (2026-10-08):** The historical extraction CSV, forest plots, GRADE table, literature matrix, and numerical prose are provisional. They must not be treated as final evidence until each row has an exact title, PMID/PubMed link, DOI link, source page/table, and an auditable PDF/full-text extraction. See `34_Meta_Data_Audit_Report_SchemeB_2026-10-08.md`, `36_Verified_Bibliography_and_Unverified_Meta_Rows_SchemeB_2026-10-08.md`, and `37_Attachment_Identity_and_Online_Extraction_Addendum_SchemeB_2026-10-08.md`. The current branch does not contain the user-uploaded PDF bytes.
+> **Integrity warning (2026-10-08):** The user-uploaded 11-PDF archive has now been extracted and audited; see `38_PDF_Byte_Extraction_Audit_SchemeB_2026-10-08.md`. The historical extraction CSV, forest plots, GRADE table, literature matrix, and numerical prose remain provisional. They must not be treated as final evidence until outcome harmonisation, cohort-overlap checking, and a reproducible re-analysis are complete. See also `34_Meta_Data_Audit_Report_SchemeB_2026-10-08.md`, `36_Verified_Bibliography_and_Unverified_Meta_Rows_SchemeB_2026-10-08.md`, and `37_Attachment_Identity_and_Online_Extraction_Addendum_SchemeB_2026-10-08.md`.
 
 ## 📍 GitHub在线查看（历史链接；以当前分支和完整性核验文件为准）
 

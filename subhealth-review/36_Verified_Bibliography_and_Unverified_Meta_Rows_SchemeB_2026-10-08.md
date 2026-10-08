@@ -117,4 +117,4 @@ For the next step, please download the verified records above, especially items 
 
 ## Attachment reconciliation update — 2026-10-08
 
-The 11 filenames supplied in the current turn are mapped, where possible, to exact titles, verified PMID/PubMed links, DOI links, study roles, and online table-level extraction in `37_Attachment_Identity_and_Online_Extraction_Addendum_SchemeB_2026-10-08.md`. The companion CSV is `meta_analysis_verified_online_extraction_SchemeB_2026-10-08.csv`. The user-uploaded PDF bytes are still not mounted in the workspace; therefore the historical Meta CSV remains unchanged and provisional.
+The 11 filenames supplied in the current turn are mapped to exact titles, verified PMID/PubMed links, DOI links, study roles, and source locators in `37_Attachment_Identity_and_Online_Extraction_Addendum_SchemeB_2026-10-08.md`. The byte-level PDF manifest and SHA-256 audit are in `38_PDF_Byte_Extraction_Audit_SchemeB_2026-10-08.md`; the companion CSV is `meta_analysis_verified_online_extraction_SchemeB_2026-10-08.csv`. The historical Meta CSV remains unchanged and provisional until outcome harmonisation and cohort-overlap review are complete.
