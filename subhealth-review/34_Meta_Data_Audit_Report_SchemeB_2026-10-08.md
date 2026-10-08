@@ -67,3 +67,7 @@ The row-level audit is saved as `meta_analysis_input_audit_provisional.csv`; the
 **Gate 1: FAIL for final submission, PASS for continuing the verification workflow.**
 
 The topic, manuscript architecture, and analysis package remain usable. The current numerical results must not be described as final until the source-level extraction and reproducible recalculation are complete.
+
+## 2026-10-08 online-source addendum
+
+The attachment inventory and independently verifiable online full-text rows are recorded in `37_Attachment_Identity_and_Online_Extraction_Addendum_SchemeB_2026-10-08.md` and `meta_analysis_verified_online_extraction_SchemeB_2026-10-08.csv`. Three direct SHS/cortisol records now have table-level values verified from official online full text, but they were deliberately **not** written into the historical extraction CSV in this audit. They have different SHS grouping rules and possible cohort overlap, so they must be reconciled before any pooled estimate is recalculated.

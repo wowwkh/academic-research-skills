@@ -2,10 +2,12 @@
 
 > 分支：`arena/01a09fcc-academic-research-skills`  
 > 目标：做一篇关于亚健康的、能冲 Mol Psychiatry / BBI / NBR (IF 8-10) 的论文  
-> 当前阶段：**方案B已确认（低度炎症+免疫代谢为核心，α>20有米可综），Phase0-7全流程完成，Required1-5修复完成，文献矩阵110行46篇recent=41.8% PASS，PRISMA图生成，Ready for Final Submission**  
+> 当前阶段：**方案B框架和草稿包已建立；当前处于 Meta 数据真实性核验阶段，尚未达到投稿或最终结果状态。**  
 > 流程依据：`academic-paper` skill Phase0-7 + `deep-research` systematic-review PRISMA-P/PRISMA 2020 + `academic-paper-reviewer` 5维度模拟审稿
 
-## 📍 GitHub在线查看（已推送，最新def6a9d）
+> **Integrity warning (2026-10-08):** The historical extraction CSV, forest plots, GRADE table, literature matrix, and numerical prose are provisional. They must not be treated as final evidence until each row has an exact title, PMID/PubMed link, DOI link, source page/table, and an auditable PDF/full-text extraction. See `34_Meta_Data_Audit_Report_SchemeB_2026-10-08.md`, `36_Verified_Bibliography_and_Unverified_Meta_Rows_SchemeB_2026-10-08.md`, and `37_Attachment_Identity_and_Online_Extraction_Addendum_SchemeB_2026-10-08.md`. The current branch does not contain the user-uploaded PDF bytes.
+
+## 📍 GitHub在线查看（历史链接；以当前分支和完整性核验文件为准）
 
 **文件夹总览：**
 https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-research-skills/subhealth-review
@@ -40,16 +42,16 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 - **核心模型**：SLIM模型（Suboptimal health - Low-grade Inflammation - ImmunoMetabolic）
 - **核心主角**：低度炎症（CRP 3-10 + IL-6 3.25-20 + NLR↑ + HRV↓ + 皮质醇205.8 vs 161.8）+ 免疫代谢重编程（OXPHOS↓ glycolysis↑ lactate/succinate↑ cGAS-STING/NLRP3）
 - **深度机制**：线粒体动力学失衡作为上游（Drp1 Ser616↑/Ser637↓、Mfn2/OPA1↓、PINK1/Parkin障碍、mtDNA泄漏→cGAS-STING），保留方案A深度到位点
-- **α级证据**：>20篇有米可综（皮质醇205.8 vs 161.8直接3篇，内皮/心血管4篇，多民族验证6+篇23.7% α=0.918，低度炎症+HRQoL 15+篇间接桥梁，NLR-MDA 5+篇），文献矩阵110行35α+60β+15γ
-- **可逆窗口**：健康融合主导→早期0-3月轻度分裂可逆（运动AMPK-AKAP1-Ser637、睡眠circadian-Drp1、丁酸Mfn2）→迁延期>3月过度分裂部分可逆（禁食SIRT1-PGC-1α、MitoQ/SS-31 ROS↓）→疾病碎片化难逆
-- **纯现代干预**：运动、睡眠/时间疗法、丁酸/SCFAs、MitoQ/SS-31、间歇禁食，完全去掉中医主体
-- **目标期刊**：Brain Behav Immun (8.5, 神经免疫+低度炎症+免疫代谢最匹配), Neurosci Biobehav Rev (8.2, Critical Review+新模型), J Transl Med (6.1, 转化+可逆窗口)
-- **字数**：10458w excl abstract 10756w incl abstract，110篇文献，46篇2024-2026 recent=41.8% PASS，3 Fig 4 Table + Supplementary PRISMA + Excel
-- **创新**：首次系统整合SHSQ-25+低度炎症+免疫代谢重编程，SLIM模型可验证，检索0篇系统综述重复
+- **证据状态**：历史矩阵和 Meta 输入仍是 provisional；当前已核验的直接 SHS/cortisol 表格行和桥接研究见 `37_Attachment_Identity_and_Online_Extraction_Addendum_SchemeB_2026-10-08.md`，不能把历史“α/β/γ”计数当作最终证据计数。
+- **可逆窗口**：健康融合主导→早期0-3月轻度分裂可逆（运动AMPK-AKAP1-Ser637、睡眠circadian-Drp1、丁酸Mfn2）→迁延期>3月过度分裂部分可逆（禁食SIRT1-PGC-1α、MitoQ/SS-31 ROS↓）→疾病碎片化难逆；这些是待核验的模型假说，不是当前 Meta 结果。
+- **纯现代干预**：运动、睡眠/时间疗法、丁酸/SCFAs、MitoQ/SS-31、间歇禁食，完全去掉中医主体。
+- **目标期刊**：Brain Behav Immun、Neurosci Biobehav Rev、J Transl Med；投稿适配须在数据核验完成后重新评估。
+- **字数和参考文献数**：历史草稿统计仅供导航，不能表示已完成投稿级证据审计。
+- **创新主张**：SLIM 模型和线粒体动力学整合仍是拟议框架；“首次”“零重复”等结论须待正式检索、去重和双人筛选后再使用。
 
 ---
 
-## 📌 Skills流程执行状态（全流程完成）
+## 📌 Skills流程执行状态（草稿包已建立；完整性核验未完成）
 
 | Phase | Agent | 输出 | 状态 |
 |-------|-------|------|------|
@@ -63,7 +65,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 | 6 PEER REVIEW | peer_reviewer | 5维度Reviewer1-5+Devil's Advocate Editorial Decision Major Revision因方法学待定→修复后Ready for Re-review Revision Roadmap Required 1-5 Recommended 6-13 16项checklist勾选 | DONE 19→22修复完成 |
 | 7 FORMAT | formatter | LaTeX elsarticle BibTeX DOCX via Pandoc PDF从LaTeX Cover letter BBI fit AI Disclosure Quality Checklist Files to be generated | DONE 20 |
 
-**Overall**: Phase0-7 DONE，Required1-5 FIXED，文献矩阵110行46 recent=41.8% PASS，PRISMA图生成371KB PNG+40KB PDF，References 92-110完成，Table1 footnote澄清，领域瓶颈加强，Ready for Re-review Phase3' + Final Integrity Phase4.5 + Final Submission BBI。
+**Overall**: Phase0-7 的方案和草稿文件已生成；但文献身份、源表格、Meta 输入、森林图、GRADE 和正文数字仍在完整性核验中。不得将历史矩阵的计数、PRISMA 图或“PASS/Ready”标签当作最终结果。当前下一道门是逐篇完成 exact title + PMID/PubMed + DOI + page/table + extraction audit。
 
 ---
 
@@ -75,16 +77,13 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 
 ---
 
-## 📌 下一步 Final Submission
+## 📌 当前下一步：先完成数据真实性核验
 
-- [x] 文献矩阵110行46 recent=41.8% PASS
-- [x] PRISMA图生成Supplementary Fig S1
-- [x] References 92-110完成Vancouver DOI
-- [x] Table1 footnote澄清α direct vs β bridge
-- [x] 领域瓶颈加强Discussion
-- [x] Table0客观标志物列+Table3抑制剂工具+Table4 Delivery列+安全性+长句拆分+Seahorse细节+昼夜节律+Cover letter
-- [ ] 生成LaTeX 22_LaTeX_BBI_NBR_方案B.tex + references_schemeB.bib + DOCX 23号 + PDF 24号（可现在生成）
-- [ ] Final Integrity Stage 4.5 5-phase protocol+7-mode AI failure checklist
-- [ ] 投稿BBI with Cover letter+AI Disclosure+Graphical Abstract Fig2
+- [ ] 重新挂载/上传 11 个 PDF（优先 ZIP，保留原文件名）
+- [ ] 为每篇记录 SHA-256、exact title、PMID/PubMed link、DOI link、页码和表号
+- [ ] 用双人规则复核 SHSQ-25 定义、样本排除、检测时间、单位和可比性
+- [ ] 将已核验的行与 `meta_analysis_verified_online_extraction_SchemeB_2026-10-08.csv` 对账
+- [ ] 仅在输入表锁定后重算 random-effects Meta、森林图、GRADE 和正文数字
+- [ ] 最后再生成投稿级 LaTeX/DOCX/PDF 和 cover letter
 
-确认后我生成LaTeX+DOCX+PDF定稿包。
+当前不应投稿；投稿级格式包必须等待数据审计完成。

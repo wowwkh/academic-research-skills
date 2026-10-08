@@ -22,7 +22,7 @@ The previous request list contained working labels and several unverified DOI-lo
 
 3. **Association of suboptimal health status with psychosocial stress, plasma cortisol and mRNA expression of glucocorticoid receptor α/β in lymphocyte**  
    Yan YX, Dong J, Liu YQ, et al. *Stress*. 2015;18(1):29-34.  
-   **PMID:** not located in PubMed during verification; do not invent one.  
+   **PMID:** [25518867](https://pubmed.ncbi.nlm.nih.gov/25518867/)  
    **DOI:** https://doi.org/10.3109/10253890.2014.999233  
    **Use:** direct SHS/plasma cortisol and glucocorticoid-receptor study.
 
@@ -56,9 +56,9 @@ The previous request list contained working labels and several unverified DOI-lo
 
 8. **Low-grade inflammation is negatively associated with physical Health-Related Quality of Life in healthy individuals: Results from The Danish Blood Donor Study (DBDS)**  
    Dinh KM, Kaspersen KA, Mikkelsen S, et al. *PLoS ONE*. 2019;14(3):e0214468.  
-   **PMID:** 30921429; **PMCID:** PMC6438577  
+   **PMID:** [30921429](https://pubmed.ncbi.nlm.nih.gov/30921429/); **PMCID:** PMC6438577  
    **DOI:** https://doi.org/10.1371/journal.pone.0214468  
-   **Correction:** PMID 31136577; DOI https://doi.org/10.1371/journal.pone.0216339  
+   **Linked correction (separate record):** **Correction: Low-grade inflammation is negatively associated with physical Health-Related Quality of Life in healthy individuals: Results from The Danish Blood Donor Study (DBDS)**; PMID [31136577](https://pubmed.ncbi.nlm.nih.gov/31136577/); DOI https://doi.org/10.1371/journal.pone.0216339.  
    **Use:** Danish CRP 3-10 mg/L and SF-12 physical HRQoL bridge evidence. The current project’s BBI DOI was incorrect, and this paper does not by itself provide a fatigue OR of 1.52.
 
 9. **Association of C-reactive protein and interleukin-6 with new-onset fatigue in the Whitehall II prospective cohort study**  
@@ -114,3 +114,7 @@ Do **not** search for these using the previous working DOI strings. Two examples
 ## Immediate consequence
 
 For the next step, please download the verified records above, especially items **2–4, 7–9**. For the unverified 2024 NLR/HRV/OXPHOS rows, the correct action is a fresh PubMed/Crossref/database search or removal from the Meta analysis—not asking the user to locate a paper from an invented identifier.
+
+## Attachment reconciliation update — 2026-10-08
+
+The 11 filenames supplied in the current turn are mapped, where possible, to exact titles, verified PMID/PubMed links, DOI links, study roles, and online table-level extraction in `37_Attachment_Identity_and_Online_Extraction_Addendum_SchemeB_2026-10-08.md`. The companion CSV is `meta_analysis_verified_online_extraction_SchemeB_2026-10-08.csv`. The user-uploaded PDF bytes are still not mounted in the workspace; therefore the historical Meta CSV remains unchanged and provisional.
