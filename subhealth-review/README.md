@@ -77,7 +77,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 
 ---
 
-## 📌 当前下一步：锁定 primary synthesis 规则
+## 📌 当前下一步：等待队列独立性证据或进入 narrative-only 写作
 
 - [x] 读取 11 个 PDF 并记录 SHA-256、页数、exact title、PMID/PubMed、DOI、页码和表号
 - [x] 建立 PDF-audited extraction CSV
@@ -85,9 +85,10 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 - [x] 生成明确标注为 exploratory 的 source-audited forest plot 和 GRADE 判断
 - [x] 完成 Yan 2012、Yan 2015、Yan 2018 的 source-based 队列/估计量对账
 - [x] 识别 Yan 2018 的 LCA cortisol incorporation；不将其作为独立 etiologic cortisol estimate
+- [x] 锁定当前 primary synthesis：direct cortisol narrative-only；bridge outcomes separate narrative
+- [x] 建立 31-row provisional Meta eligibility ledger；24 个无 exact identity 的 rows 已 quarantine，4 个 outcome/effect mismatch rows 已 quarantine
 - [ ] 获取作者级/参与者级证据，确认或排除 2012、2015、2018 的样本重叠
-- [ ] 决定在无法确认独立性时采用 one-report-per-cohort 或 narrative-only synthesis
-- [x] 建立 31-row provisional Meta eligibility ledger；24 个无 exact identity 的 rows 已 quarantine，5 个 outcome/effect mismatch rows 已 quarantine
-- [ ] 仅在分析输入表和 primary synthesis 规则锁定后重算最终 Meta、GRADE、森林图和正文数字
+- [ ] 若无法确认独立性，则按 locked rule 进行 narrative-only 主文写作；不得生成 primary pooled effect
+- [ ] 隔离所有无法核验的 NLR、HRV、OXPHOS 和 fatigue Meta 行后，再重写投稿级正文数字
 
-当前不应投稿；投稿级格式包必须等待 primary synthesis 规则和最终分析完成。
+当前不应投稿；投稿级格式包必须等待最终证据锁定和正文重写完成。
