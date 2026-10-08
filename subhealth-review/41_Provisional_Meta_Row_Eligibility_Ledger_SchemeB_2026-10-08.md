@@ -11,7 +11,7 @@ No PMID or DOI has been guessed for an unverified row. Empty bibliographic field
 | Legacy-row status | Number of rows | Action |
 |---|---:|---|
 | No exact title + PMID/PubMed + DOI verified | 24 | Quarantine; do not use in Meta or assign a guessed identifier |
-| Verified article identity, but historical outcome/effect does not match | 5 | Quarantine historical effect; retain only the separately source-audited outcome if eligible |
+| Verified article identity, but historical outcome/effect does not match | 4 | Quarantine historical effect; retain only the separately source-audited outcome if eligible |
 | Verified context article, but historical cortisol/NLR cohort is not verified | 2 | Quarantine historical effect; context article is not a substitute |
 | Verified direct-cortisol identity, but historical label/effect is wrong and primary pooling is blocked | 1 | Quarantine legacy row; use the PDF-audited Yan 2018 record only as separate diagnostic evidence |
 | **Historical rows eligible for the final primary pooled Meta at this stage** | **0** | **No primary pooled estimate** |
