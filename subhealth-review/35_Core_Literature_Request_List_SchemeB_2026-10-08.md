@@ -1,5 +1,7 @@
 # Core literature request list for source-PDF verification — Scheme B — 2026-10-08
 
+> **Superseded for bibliographic searching.** Use `36_Verified_Bibliography_and_Unverified_Meta_Rows_SchemeB_2026-10-08.md` instead. This earlier file contains working labels and unverified identifiers that must not be treated as final citations.
+
 ## Important bibliographic warning
 
 This is a **working reconciliation list**, generated from the current 31-row meta-extraction CSV and literature matrix. It is not a verified bibliography. Several records have incomplete titles, truncated DOI information, or DOI-looking placeholders. Do not spend time searching only by an unverified DOI. Search by the topic, journal, year, author label, and the reported sample/outcome; then send the PDF that actually contains the data. Any record that cannot be located will be removed from the quantitative synthesis rather than reconstructed.
