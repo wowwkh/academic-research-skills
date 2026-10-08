@@ -65,7 +65,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 | 6 PEER REVIEW | peer_reviewer | 5维度Reviewer1-5+Devil's Advocate Editorial Decision Major Revision因方法学待定→修复后Ready for Re-review Revision Roadmap Required 1-5 Recommended 6-13 16项checklist勾选 | DONE 19→22修复完成 |
 | 7 FORMAT | formatter | LaTeX elsarticle BibTeX DOCX via Pandoc PDF从LaTeX Cover letter BBI fit AI Disclosure Quality Checklist Files to be generated | DONE 20 |
 
-**Overall**: Phase0-7 的方案和草稿文件已生成；但文献身份、源表格、Meta 输入、森林图、GRADE 和正文数字仍在完整性核验中。不得将历史矩阵的计数、PRISMA 图或“PASS/Ready”标签当作最终结果。当前下一道门是逐篇完成 exact title + PMID/PubMed + DOI + page/table + extraction audit。
+**Overall**: Phase0-7 的方案和草稿文件已生成；11 个源 PDF 已完成字节级提取和页码/表格审计。历史 Meta 输入、森林图、GRADE 和正文数字仍不能视为最终结果；当前下一道门是队列重叠、SHS 定义和估计量可比性的正式对账。见 `38_PDF_Byte_Extraction_Audit_SchemeB_2026-10-08.md` 和 `39_Verified_Meta_Reconciliation_and_Analysis_Decision_SchemeB_2026-10-08.md`。
 
 ---
 
@@ -77,13 +77,15 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 
 ---
 
-## 📌 当前下一步：先完成数据真实性核验
+## 📌 当前下一步：队列和估计量对账
 
-- [ ] 重新挂载/上传 11 个 PDF（优先 ZIP，保留原文件名）
-- [ ] 为每篇记录 SHA-256、exact title、PMID/PubMed link、DOI link、页码和表号
-- [ ] 用双人规则复核 SHSQ-25 定义、样本排除、检测时间、单位和可比性
-- [ ] 将已核验的行与 `meta_analysis_verified_online_extraction_SchemeB_2026-10-08.csv` 对账
-- [ ] 仅在输入表锁定后重算 random-effects Meta、森林图、GRADE 和正文数字
-- [ ] 最后再生成投稿级 LaTeX/DOCX/PDF 和 cover letter
+- [x] 读取 11 个 PDF 并记录 SHA-256、页数、exact title、PMID/PubMed、DOI、页码和表号
+- [x] 建立 PDF-audited extraction CSV
+- [x] 重新计算 3 个直接 cortisol 报告的 study-level effect、探索性 pooled effect 和 leave-one-out 敏感性分析
+- [x] 生成明确标注为 exploratory 的 source-audited forest plot 和 GRADE 判断
+- [ ] 核对 Yan 2012、Yan 2015、Yan 2018 是否存在参与者/公司/体检中心重叠
+- [ ] 决定 direct-only、one-report-per-cohort 或 narrative synthesis 的正式规则
+- [ ] 删除/隔离所有无法核验的 NLR、HRV、OXPHOS 和 fatigue Meta 行
+- [ ] 仅在分析输入表锁定后重算最终 random-effects Meta、GRADE、森林图和正文数字
 
-当前不应投稿；投稿级格式包必须等待数据审计完成。
+当前不应投稿；投稿级格式包必须等待队列对账和最终分析完成。
