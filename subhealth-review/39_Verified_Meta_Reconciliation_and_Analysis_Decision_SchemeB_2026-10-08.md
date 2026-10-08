@@ -90,4 +90,4 @@ The historical 31-row CSV, old forest plots, old GRADE table, and manuscript num
 
 ## Next analytical gate
 
-Before changing the primary Meta results, complete a cohort-reconciliation table for the three Yan reports: recruitment years, companies, health-centre source, participant IDs or overlap evidence, cortisol sampling time, assay, and the exact SHS classification. If independent cohorts cannot be established, use one study per cohort or a narrative synthesis rather than a naïve pooled estimate.
+The source-based cohort and estimand reconciliation is now documented in `40_Cohort_Reconciliation_Yan_Direct_Cortisol_SchemeB_2026-10-08.md` and its two CSV tables. It does not establish participant-level independence. Before changing the primary Meta results, obtain author-level/participant-level overlap evidence or lock a one-report-per-cohort or narrative-only rule. If independent cohorts cannot be established, do not report a naïve pooled estimate.

@@ -65,7 +65,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 | 6 PEER REVIEW | peer_reviewer | 5维度Reviewer1-5+Devil's Advocate Editorial Decision Major Revision因方法学待定→修复后Ready for Re-review Revision Roadmap Required 1-5 Recommended 6-13 16项checklist勾选 | DONE 19→22修复完成 |
 | 7 FORMAT | formatter | LaTeX elsarticle BibTeX DOCX via Pandoc PDF从LaTeX Cover letter BBI fit AI Disclosure Quality Checklist Files to be generated | DONE 20 |
 
-**Overall**: Phase0-7 的方案和草稿文件已生成；11 个源 PDF 已完成字节级提取和页码/表格审计。历史 Meta 输入、森林图、GRADE 和正文数字仍不能视为最终结果；当前下一道门是队列重叠、SHS 定义和估计量可比性的正式对账。见 `38_PDF_Byte_Extraction_Audit_SchemeB_2026-10-08.md` 和 `39_Verified_Meta_Reconciliation_and_Analysis_Decision_SchemeB_2026-10-08.md`。
+**Overall**: Phase0-7 的方案和草稿文件已生成；11 个源 PDF 已完成字节级提取和页码/表格审计。三篇 direct cortisol 报告的 source-based cohort/estimand reconciliation 已完成，但独立队列仍未被证实；2018 LCA 报告另有 cortisol incorporation 问题。历史 Meta 输入、森林图、GRADE 和正文数字仍不能视为最终结果。见 `38_PDF_Byte_Extraction_Audit_SchemeB_2026-10-08.md`、`39_Verified_Meta_Reconciliation_and_Analysis_Decision_SchemeB_2026-10-08.md` 和 `40_Cohort_Reconciliation_Yan_Direct_Cortisol_SchemeB_2026-10-08.md`。
 
 ---
 
@@ -77,15 +77,17 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 
 ---
 
-## 📌 当前下一步：队列和估计量对账
+## 📌 当前下一步：锁定 primary synthesis 规则
 
 - [x] 读取 11 个 PDF 并记录 SHA-256、页数、exact title、PMID/PubMed、DOI、页码和表号
 - [x] 建立 PDF-audited extraction CSV
 - [x] 重新计算 3 个直接 cortisol 报告的 study-level effect、探索性 pooled effect 和 leave-one-out 敏感性分析
 - [x] 生成明确标注为 exploratory 的 source-audited forest plot 和 GRADE 判断
-- [ ] 核对 Yan 2012、Yan 2015、Yan 2018 是否存在参与者/公司/体检中心重叠
-- [ ] 决定 direct-only、one-report-per-cohort 或 narrative synthesis 的正式规则
-- [ ] 删除/隔离所有无法核验的 NLR、HRV、OXPHOS 和 fatigue Meta 行
-- [ ] 仅在分析输入表锁定后重算最终 random-effects Meta、GRADE、森林图和正文数字
+- [x] 完成 Yan 2012、Yan 2015、Yan 2018 的 source-based 队列/估计量对账
+- [x] 识别 Yan 2018 的 LCA cortisol incorporation；不将其作为独立 etiologic cortisol estimate
+- [ ] 获取作者级/参与者级证据，确认或排除 2012、2015、2018 的样本重叠
+- [ ] 决定在无法确认独立性时采用 one-report-per-cohort 或 narrative-only synthesis
+- [x] 建立 31-row provisional Meta eligibility ledger；24 个无 exact identity 的 rows 已 quarantine，5 个 outcome/effect mismatch rows 已 quarantine
+- [ ] 仅在分析输入表和 primary synthesis 规则锁定后重算最终 Meta、GRADE、森林图和正文数字
 
-当前不应投稿；投稿级格式包必须等待队列对账和最终分析完成。
+当前不应投稿；投稿级格式包必须等待 primary synthesis 规则和最终分析完成。

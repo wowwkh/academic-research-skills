@@ -118,7 +118,7 @@ def main() -> None:
         df=pooled["df"],
         tau2=f"{pooled['tau2']:.6f}",
         I2_percent=f"{pooled['I2']:.3f}",
-        notes="Not a primary estimate: SHS definitions differ (median 35, median 44, LCA), 2015 values are covariate-adjusted, and cohort overlap is unresolved.",
+        notes="Not a primary estimate: SHS definitions differ (median 35, median 44, LCA), Yan 2015 values are covariate-adjusted, Yan 2018 includes cortisol as an LCA manifest indicator, and cohort overlap is unresolved.",
     ))
 
     for index, dropped in enumerate(rows):

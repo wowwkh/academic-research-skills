@@ -23,7 +23,7 @@ def main() -> None:
     labels = [
         "Yan 2015\nSHS ≥35 vs <35",
         "Yan 2012\nmedian SHS 44",
-        "Yan 2018\nLCA-defined SHS",
+        "Yan 2018\nLCA; cortisol included",
     ]
     y = list(range(len(studies), 0, -1))
     effects = [float(row["effect"]) for row in studies]
@@ -50,9 +50,9 @@ def main() -> None:
     ax.set_yticks([0, *y])
     ax.set_yticklabels(["", "", "", ""])
     ax.set_ylim(-0.8, len(studies) + 0.8)
-    ax.set_xlabel("Mean difference in plasma cortisol (ng/mL; SHS minus reference)")
-    ax.set_title("Source-audited direct SHS/cortisol evidence\nExploratory only: non-equivalent SHS definitions and possible cohort overlap", fontsize=11, pad=12)
-    ax.text(0.5, -0.16, "Study-level CIs are derived from PDF-reported means/SDs. Pool: Q=297.33, I²=99.3%; do not cite as a final pooled estimate.", transform=ax.transAxes, ha="center", va="top", fontsize=8, color="#555555")
+    ax.set_xlabel("Mean difference in cortisol (ng/mL; reported SHS/LCA group minus reference)")
+    ax.set_title("Source-audited direct SHS/cortisol evidence\nExploratory only: mixed estimands, possible cohort overlap, and LCA incorporation", fontsize=11, pad=12)
+    ax.text(0.5, -0.16, "Study-level CIs are derived from PDF-reported means/SDs. Yan 2018 uses cortisol in LCA class assignment. Pool: Q=297.33, I²=99.3%; do not cite as a final pooled estimate.", transform=ax.transAxes, ha="center", va="top", fontsize=8, color="#555555")
     ax.grid(axis="x", linestyle=":", linewidth=0.7, alpha=0.65)
     fig.tight_layout(rect=(0, 0.08, 1, 1))
     fig.savefig(PNG, dpi=300)
