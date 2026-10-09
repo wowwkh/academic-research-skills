@@ -65,7 +65,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 | 6 PEER REVIEW | peer_reviewer | 5维度Reviewer1-5+Devil's Advocate Editorial Decision Major Revision因方法学待定→修复后Ready for Re-review Revision Roadmap Required 1-5 Recommended 6-13 16项checklist勾选 | DONE 19→22修复完成 |
 | 7 FORMAT | formatter | LaTeX elsarticle BibTeX DOCX via Pandoc PDF从LaTeX Cover letter BBI fit AI Disclosure Quality Checklist Files to be generated | DONE 20 |
 
-**Overall**: Phase0-7 的方案和草稿文件已生成；11 个源 PDF 已完成字节级提取和页码/表格审计。三篇 direct cortisol 报告的 source-based cohort/estimand reconciliation 已完成，但独立队列仍未被证实；2018 LCA 报告另有 cortisol incorporation 问题。历史 Meta 输入、森林图、GRADE 和正文数字仍不能视为最终结果。当前已有 locked evidence map、manuscript source audit 和 narrative-only replacement manuscript；见 `38_PDF_Byte_Extraction_Audit_SchemeB_2026-10-08.md`、`40_Cohort_Reconciliation_Yan_Direct_Cortisol_SchemeB_2026-10-08.md`、`42_Primary_Synthesis_Lock_and_Narrative_Evidence_Map_SchemeB_2026-10-08.md`、`43_Manuscript_Source_Audit_and_Safe_Replacement_SchemeB_2026-10-08.md` 和 `44_Source_Audited_Narrative_Review_Manuscript_SchemeB_2026-10-08.md`。
+**Overall**: Phase0-7 的方案和草稿文件已生成；11 个源 PDF 已完成字节级提取和页码/表格审计。三篇 direct cortisol 报告的 source-based cohort/estimand reconciliation 已完成，但独立队列仍未被证实；2018 LCA 报告另有 cortisol incorporation 问题。历史 Meta 输入、森林图、GRADE 和正文数字仍不能视为最终结果。当前已有 locked evidence map、manuscript source audit、narrative-only replacement manuscript、mechanistic transfer matrix 和 citation-compliance audit；见 `38_PDF_Byte_Extraction_Audit_SchemeB_2026-10-08.md`、`40_Cohort_Reconciliation_Yan_Direct_Cortisol_SchemeB_2026-10-08.md`、`42_Primary_Synthesis_Lock_and_Narrative_Evidence_Map_SchemeB_2026-10-08.md`、`43_Manuscript_Source_Audit_and_Safe_Replacement_SchemeB_2026-10-08.md`、`44_Source_Audited_Narrative_Review_Manuscript_SchemeB_2026-10-08.md`、`45_Narrative_Manuscript_Citation_Compliance_Audit_SchemeB_2026-10-08.md` 和 `46_Mechanistic_Transfer_Evidence_Matrix_SchemeB_2026-10-08.md`。
 
 ---
 
@@ -89,6 +89,8 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 - [x] 建立 31-row provisional Meta eligibility ledger；24 个无 exact identity 的 rows 已 quarantine，4 个 outcome/effect mismatch rows 已 quarantine
 - [x] 建立 manuscript source audit 和 safe replacement package
 - [x] 创建 source-audited narrative-only working manuscript `44_Source_Audited_Narrative_Review_Manuscript_SchemeB_2026-10-08.md`
+- [x] 完成 44 号 manuscript 的 exact-title/PMID/PubMed/DOI citation-compliance audit（13/13 anchors PASS）
+- [x] 建立 mitochondrial dynamics / immunometabolism / cGAS–STING / NLRP3 的 mechanistic transfer matrix，明确非 SHS direct evidence
 - [ ] 获取作者级/参与者级证据，确认或排除 2012、2015、2018 的样本重叠
 - [ ] 将 narrative-only working manuscript 继续扩展为完整投稿稿，并逐条完成 exact-title/PMID/DOI citation compliance
 - [ ] 隔离所有无法核验的 NLR、HRV、OXPHOS 和 fatigue Meta 行后，再生成最终图表与正文数字
