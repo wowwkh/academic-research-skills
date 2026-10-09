@@ -1,0 +1,32 @@
+Outcome,Study,Metric,Numeric_inputs_complete,Source_locator_in_study_field,Reported_effect,Computed_study_effect,Computed_minus_first_reported_number,Audit_status,Note
+Cortisol_ng_ml,Hou 2019 PMC6107457,MD,True,True,"MD 44.0 [38.0,50.0]",44.000000,0.000000,locator named; verify PDF/table,means/SDs parsed
+Cortisol_ng_ml,Liu 2024,MD,True,False,MD 25.0,25.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+Cortisol_ng_ml,Zhang 2024,MD,True,False,MD 40.0,40.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+Cortisol_ng_ml,Alzain 2024b,MD,True,False,MD 35.0,35.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+NLR,Chen 2024,MD,True,False,MD 0.5,0.500000,0.000000,needs PDF/page/table verification,means/SDs parsed
+NLR,Alzain 2024b,MD,True,False,MD 0.5,0.500000,0.000000,needs PDF/page/table verification,means/SDs parsed
+NLR,Crohn MDA 2020,MD,True,False,MD 0.6,0.600000,-0.000000,needs PDF/page/table verification,means/SDs parsed
+NLR,Hemodialysis 2021,MD,True,False,MD 0.4,0.400000,0.000000,needs PDF/page/table verification,means/SDs parsed
+NLR,MASLD 2022,MD,True,False,MD 0.5,0.500000,0.000000,needs PDF/page/table verification,means/SDs parsed
+NLR,Clin Chim Acta 2023,MD,True,False,MD 0.55,0.550000,-0.000000,needs PDF/page/table verification,means/SDs parsed
+HRV_SDNN_ms,Zhang 2024,MD,True,False,MD -25,-25.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+HRV_SDNN_ms,BBIH 2021,MD,True,False,MD -25,-25.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+HRV_SDNN_ms,J Psychosom Res 2023,MD,True,False,MD -24,-24.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+HRV_SDNN_ms,Psychoneuroendocrinol 2022,MD,True,False,MD -26,-26.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+HRV_RMSSD_ms,Zhang 2024,MD,True,False,MD -10,-10.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+HRV_RMSSD_ms,BBIH 2021,MD,True,False,MD -10,-10.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+HRV_RMSSD_ms,J Psychosom Res 2023,MD,True,False,MD -11,-11.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+Fatigue_OR_joint,Swedish 2015,logOR,True,False,"OR 1.85 [1.45,2.36]",1.850000,0.000000,needs PDF/page/table verification,OR and 95% CI parsed; pooled on log scale
+Fatigue_OR_joint,Danish DBDS 2019,logOR,True,False,"OR 1.52 [1.32,1.75]",1.520000,0.000000,needs PDF/page/table verification,OR and 95% CI parsed; pooled on log scale
+Fatigue_OR_joint,PLOS ONE 2019,logOR,True,False,"OR 1.68 [1.20,2.35]",1.680000,0.000000,needs PDF/page/table verification,OR and 95% CI parsed; pooled on log scale
+Fatigue_OR_joint,Qual Life Res 2023 Chinese,logOR,True,False,"OR 1.72 [1.30,2.28]",1.720000,0.000000,needs PDF/page/table verification,OR and 95% CI parsed; pooled on log scale
+Fatigue_OR_joint,J Korean Med Sci 2024,logOR,True,False,"OR 1.45 [1.15,1.83]",1.450000,0.000000,needs PDF/page/table verification,OR and 95% CI parsed; pooled on log scale
+Fatigue_OR_joint,BBI 2023,logOR,True,False,"OR 1.60 [1.35,1.90]",1.600000,0.000000,needs PDF/page/table verification,OR and 95% CI parsed; pooled on log scale
+SF36_Vitality,Swedish 2015,MD,True,False,MD -10,-10.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+SF36_Vitality,Danish DBDS 2019,MD,True,False,MD -8,-8.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+SF36_Vitality,Qual Life Res 2024 Chinese,MD,True,False,MD -10,-10.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+SF36_Vitality,Qual Life Res 2023 Chinese,MD,True,False,MD -7,-7.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+SF36_Vitality,J Korean Med Sci 2024,MD,True,False,MD -7,-7.000000,0.000000,needs PDF/page/table verification,means/SDs parsed
+OXPHOS_basal,Zhao 2024,SMD,True,False,SMD -1.10,-1.097281,0.002719,needs PDF/page/table verification,Hedges g from means/SDs
+OXPHOS_basal,Mitochondrion 2023,SMD,True,False,SMD -1.23,-1.222879,0.007121,needs PDF/page/table verification,Hedges g from means/SDs
+OXPHOS_basal,ME/CFS 2024,SMD,True,False,SMD -1.36,-1.351221,0.008779,needs PDF/page/table verification,Hedges g from means/SDs
