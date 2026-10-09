@@ -24,6 +24,10 @@ ANCHORS = [
     ("Mitochondrial DNA Leakage and cGas/STING Pathway in Microglia: Crosstalk Between Neuroinflammation and Neurodegeneration", "38685462", "https://pubmed.ncbi.nlm.nih.gov/38685462/", "10.1016/j.neuroscience.2024.04.009", "https://doi.org/10.1016/j.neuroscience.2024.04.009", "mechanistic_transfer"),
     ("Mitochondrial Damage Causes Inflammation via cGAS-STING Signaling in Acute Kidney Injury", "31665638", "https://pubmed.ncbi.nlm.nih.gov/31665638/", "10.1016/j.celrep.2019.09.050", "https://doi.org/10.1016/j.celrep.2019.09.050", "mechanistic_transfer"),
     ("Oxidized mitochondrial DNA activates the NLRP3 inflammasome during apoptosis", "22342844", "https://pubmed.ncbi.nlm.nih.gov/22342844/", "10.1016/j.immuni.2012.01.009", "https://doi.org/10.1016/j.immuni.2012.01.009", "mechanistic_transfer"),
+    ("Integration of suboptimal health status and endothelial dysfunction as a new aspect for risk evaluation of cardiovascular disease", "27621756", "https://pubmed.ncbi.nlm.nih.gov/27621756/", "10.1186/s13167-016-0068-0", "https://doi.org/10.1186/s13167-016-0068-0", "shs_context"),
+    ("Glycomic biomarkers are instrumental for suboptimal health status management in the context of predictive, preventive, and personalized medicine", "35719133", "https://pubmed.ncbi.nlm.nih.gov/35719133/", "10.1007/s13167-022-00278-1", "https://doi.org/10.1007/s13167-022-00278-1", "shs_multiomics"),
+    ("Conceptualised psycho-medical footprint for health status outcomes and the potential impacts for early detection and prevention of chronic diseases in the context of 3P medicine", "38094584", "https://pubmed.ncbi.nlm.nih.gov/38094584/", "10.1007/s13167-023-00344-2", "https://doi.org/10.1007/s13167-023-00344-2", "shs_network"),
+    ("The caregiving role influences Suboptimal Health Status and psychological symptoms in unpaid carers", "39239105", "https://pubmed.ncbi.nlm.nih.gov/39239105/", "10.1007/s13167-024-00370-8", "https://doi.org/10.1007/s13167-024-00370-8", "shs_psychosocial_context"),
 ]
 
 

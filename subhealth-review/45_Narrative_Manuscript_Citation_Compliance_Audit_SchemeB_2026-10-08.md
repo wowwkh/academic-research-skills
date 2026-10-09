@@ -6,12 +6,12 @@ This audit applies to `44_Source_Audited_Narrative_Review_Manuscript_SchemeB_202
 
 ## Automated result
 
-The audit script `audit_narrative_manuscript_citations_SchemeB.py` passed on 2026-10-08:
+The audit script `audit_narrative_manuscript_citations_SchemeB.py` passed on 2026-10-09:
 
-- verified reference anchors checked: **13**;
-- exact titles present: **13/13**;
-- PMID and PubMed URLs present: **13/13**;
-- DOI strings and DOI URLs present: **13/13**;
+- verified reference anchors checked: **17**;
+- exact titles present: **17/17**;
+- PMID and PubMed URLs present: **17/17**;
+- DOI strings and DOI URLs present: **17/17**;
 - provisional placeholder `CRD42026XXXXX` in the narrative manuscript: **absent**;
 - historical “Ready for Final Submission” status in the narrative manuscript: **absent**;
 - historical “110 studies included” claim in the narrative manuscript: **absent**;
@@ -21,7 +21,7 @@ The machine-readable anchor table is `verified_reference_anchors_narrative_manus
 
 ## Verified anchor inventory
 
-The 13 anchors are divided into one measurement-context source, three direct cortisol records, two low-grade-inflammation/HRQoL bridge records, one inflammation/fatigue bridge record and six mechanistic transfer sources. Each row in the CSV contains the exact title, PMID, PubMed URL, DOI and DOI URL.
+The 17 anchors are divided into one measurement-context source, three direct cortisol records, two low-grade-inflammation/HRQoL bridge records, one inflammation/fatigue bridge record, six mechanistic transfer sources and four verified SHS context/multi-omics records. The four new context records are online-verified PubMed/PMC records and are not represented as local byte-level PDF-audited primary outcomes. Each row in the CSV contains the exact title, PMID, PubMed URL, DOI and DOI URL.
 
 ### Measurement context
 
@@ -47,6 +47,13 @@ The 13 anchors are divided into one measurement-context source, three direct cor
 - *Mitochondrial DNA Leakage and cGas/STING Pathway in Microglia: Crosstalk Between Neuroinflammation and Neurodegeneration* — PMID [38685462](https://pubmed.ncbi.nlm.nih.gov/38685462/); DOI [10.1016/j.neuroscience.2024.04.009](https://doi.org/10.1016/j.neuroscience.2024.04.009).
 - *Mitochondrial Damage Causes Inflammation via cGAS-STING Signaling in Acute Kidney Injury* — PMID [31665638](https://pubmed.ncbi.nlm.nih.gov/31665638/); DOI [10.1016/j.celrep.2019.09.050](https://doi.org/10.1016/j.celrep.2019.09.050).
 - *Oxidized mitochondrial DNA activates the NLRP3 inflammasome during apoptosis* — PMID [22342844](https://pubmed.ncbi.nlm.nih.gov/22342844/); DOI [10.1016/j.immuni.2012.01.009](https://doi.org/10.1016/j.immuni.2012.01.009).
+
+### Verified SHS context and multi-omics anchors
+
+- *Integration of suboptimal health status and endothelial dysfunction as a new aspect for risk evaluation of cardiovascular disease* — PMID [27621756](https://pubmed.ncbi.nlm.nih.gov/27621756/); DOI [10.1186/s13167-016-0068-0](https://doi.org/10.1186/s13167-016-0068-0).
+- *Glycomic biomarkers are instrumental for suboptimal health status management in the context of predictive, preventive, and personalized medicine* — PMID [35719133](https://pubmed.ncbi.nlm.nih.gov/35719133/); DOI [10.1007/s13167-022-00278-1](https://doi.org/10.1007/s13167-022-00278-1).
+- *Conceptualised psycho-medical footprint for health status outcomes and the potential impacts for early detection and prevention of chronic diseases in the context of 3P medicine* — PMID [38094584](https://pubmed.ncbi.nlm.nih.gov/38094584/); DOI [10.1007/s13167-023-00344-2](https://doi.org/10.1007/s13167-023-00344-2).
+- *The caregiving role influences Suboptimal Health Status and psychological symptoms in unpaid carers* — PMID [39239105](https://pubmed.ncbi.nlm.nih.gov/39239105/); DOI [10.1007/s13167-024-00370-8](https://doi.org/10.1007/s13167-024-00370-8).
 
 ## Content-level checks
 

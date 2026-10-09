@@ -30,6 +30,10 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 | **修复完成** | **22_Required1-5修复完成** | https://github.com/wowwkh/academic-research-skills/blob/arena/01a09fcc-academic-research-skills/subhealth-review/22_%E4%BF%AE%E8%AE%A2_Required1-5%E5%AE%8C%E6%88%90_%E6%96%B9%E6%A1%88B_2026-09-14.md | **最新**，文献矩阵110行46 recent=41.8% PASS，PRISMA图生成，References 92-110完成，Table1 footnote澄清，领域瓶颈加强，Re-review checklist 16项勾选 |
 | 文献矩阵完整 | literature_matrix_schemeB_complete.csv | https://github.com/wowwkh/academic-research-skills/blob/arena/01a09fcc-academic-research-skills/subhealth-review/literature_matrix_schemeB_complete.csv | **110行完整**，46篇2024-2026 recent=41.8% PASS，35α+60β+15γ，定量数据完整 |
 | PRISMA图 | PRISMA_Flow_SchemeB.png/pdf | https://github.com/wowwkh/academic-research-skills/blob/arena/01a09fcc-academic-research-skills/subhealth-review/PRISMA_Flow_SchemeB.png | 371KB 300dpi Supplementary Fig S1，1380→890→230→110 19α+71β+20γ |
+| 当前 source-audited manuscript | 44_Source_Audited_Narrative_Review_SchemeB | — | narrative-only；直接 SHS–cortisol primary synthesis 仍不 pooled；纳入 4 条 context/multi-omics bridge records |
+| 当前 citation audit | 45_Narrative_Manuscript_Citation_Compliance_Audit_SchemeB + verified_reference_anchors CSV | — | 17/17 exact-title/PMID/PubMed/DOI anchors PASS；不替代完整 systematic-review audit |
+| 机制转移矩阵 | 46_Mechanistic_Transfer_Evidence_Matrix_SchemeB | — | 6 条 mechanistic-transfer records；仅作 transfer/hypothesis boundary |
+| SHS context/multi-omics addendum | 47_Verified_SHS_Context_Multiomics_Addendum_SchemeB | — | 4 条 exact-identity records：vascular bridge、glycomic roadmap、symptom network、psychosocial context |
 
 ---
 
@@ -89,10 +93,10 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 - [x] 建立 31-row provisional Meta eligibility ledger；24 个无 exact identity 的 rows 已 quarantine，4 个 outcome/effect mismatch rows 已 quarantine
 - [x] 建立 manuscript source audit 和 safe replacement package
 - [x] 创建 source-audited narrative-only working manuscript `44_Source_Audited_Narrative_Review_Manuscript_SchemeB_2026-10-08.md`
-- [x] 完成 44 号 manuscript 的 exact-title/PMID/PubMed/DOI citation-compliance audit（13/13 anchors PASS）
+- [x] 完成 44 号 manuscript 的 exact-title/PMID/PubMed/DOI citation-compliance audit（17/17 anchors PASS；含 4 条 SHS context/multi-omics records）
 - [x] 建立 mitochondrial dynamics / immunometabolism / cGAS–STING / NLRP3 的 mechanistic transfer matrix，明确非 SHS direct evidence
 - [ ] 获取作者级/参与者级证据，确认或排除 2012、2015、2018 的样本重叠
-- [ ] 将 narrative-only working manuscript 继续扩展为完整投稿稿，并逐条完成 exact-title/PMID/DOI citation compliance
+- [ ] 将 narrative-only working manuscript 继续扩展为完整投稿稿，并对后续新增文献逐条完成 exact-title/PMID/DOI citation compliance
 - [ ] 隔离所有无法核验的 NLR、HRV、OXPHOS 和 fatigue Meta 行后，再生成最终图表与正文数字
 
 当前不应投稿；投稿级格式包必须等待最终证据锁定、完整检索/筛选记录和正文 citation audit 完成。
