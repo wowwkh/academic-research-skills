@@ -49,6 +49,10 @@ The 2018 report has an additional estimand problem: plasma cortisol is one of th
 
 The structured versions of these fields are in `cohort_reconciliation_Yan_direct_cortisol_SchemeB_2026-10-08.csv`, and the pairwise comparison is in `cohort_overlap_pairwise_Yan_direct_cortisol_SchemeB_2026-10-08.csv`.
 
+### Additional Table 1 confirmation for Yan 2015
+
+The newly supplied Table 1 image/CSV confirms that the Yan 2015 analytic groups were high SHS `n=193` (101 male, 92 female) and low SHS `n=189` (87 male, 102 female), matching the cortisol Table 4 groups. Age was 42.04 ± 4.12 versus 42.65 ± 4.86 years, with `F(1,376)=1.324` and `p=0.186`. The psychosocial-stress comparisons were adjusted for sex, age and company; continuous outcomes used `F(1,376)` and the sex distribution used a chi-square test. This strengthens the source audit of the 2015 group structure and confirms company adjustment, but it supplies no employer names, recruitment-frame identifier or participant-level deduplication evidence. It therefore does not change the overlap gate or the narrative-only primary synthesis.
+
 ## Pairwise overlap assessment
 
 ### Yan 2012 versus Yan 2015

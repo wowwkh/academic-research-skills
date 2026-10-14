@@ -35,6 +35,7 @@ The shell utilities `pdfinfo` and `pdftotext` are not installed in this environm
 1. **Association of suboptimal health status with psychosocial stress, plasma cortisol and mRNA expression of glucocorticoid receptor α/β in lymphocyte**  
    PMID [25518867](https://pubmed.ncbi.nlm.nih.gov/25518867/); DOI [10.3109/10253890.2014.999233](https://doi.org/10.3109/10253890.2014.999233).  
    **PDF p. 6, Table 4:** high SHS n=193, plasma cortisol 178.58 ± 18.25 ng/mL; low SHS n=189, 167.77 ± 12.25 ng/mL; adjusted `p<0.001`. The table footnote states adjustment for sex, age, company, and waking-to-sampling interval. Four cortisol outliers were excluded from 386 recruited workers.
+   **Additional supplied Table 1 image/CSV:** the same analyzed groups are high SHS n=193 (101 male/92 female) and low SHS n=189 (87 male/102 female). Age was 42.04 ± 4.12 versus 42.65 ± 4.86 years (`F(1,376)=1.324`, `p=0.186`). The psychosocial-stress domain comparisons were reported with models adjusted for sex, age and company; the table reports `F(1,376)` for continuous measures and a chi-square test for sex. This confirms the group totals and company-adjusted psychosocial-stress analysis, but it does not identify the employers or resolve overlap with the 2012 or 2018 reports.
 
 2. **Association of Suboptimal Health Status and Cardiovascular Risk Factors in Urban Chinese Workers**  
    PMID [22203493](https://pubmed.ncbi.nlm.nih.gov/22203493/); DOI [10.1007/s11524-011-9636-8](https://doi.org/10.1007/s11524-011-9636-8).  
