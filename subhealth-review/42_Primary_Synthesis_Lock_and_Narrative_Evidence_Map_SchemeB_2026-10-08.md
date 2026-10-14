@@ -64,12 +64,10 @@ A pooled value may appear only in a clearly labelled sensitivity appendix with t
 
 ## Reopening criteria
 
-The locked decision may be reopened only if new evidence provides:
+The locked decision may be reopened only if a **publicly accessible, non-identifying** source provides defensible evidence of cohort independence or a cohort identifier, together with:
 
-- recruitment years and employer lists for all three reports;
-- author-level or participant-level confirmation of independence/deduplication;
 - a protocol-approved decision about serum versus plasma and sampling time;
 - a common exposure/outcome estimand, or a justified transformation; and
 - a decision to exclude the LCA-incorporated cortisol contrast from an etiologic pool.
 
-Until then, the historical 31-row Meta CSV, old forest plots and manuscript numerical claims remain traceability artifacts and must not be presented as final results.
+Employer lists, participant-level linkage, participant identifiers and private author responses are neither required nor sought. If no suitable public evidence exists, the narrative-only decision is final for this evidence phase rather than an unresolved request for confidential data. Until then, the historical 31-row Meta CSV, old forest plots and manuscript numerical claims remain traceability artifacts and must not be presented as final results.

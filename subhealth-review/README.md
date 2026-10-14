@@ -95,7 +95,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 - [x] 创建 source-audited narrative-only working manuscript `44_Source_Audited_Narrative_Review_Manuscript_SchemeB_2026-10-08.md`
 - [x] 完成 44 号 manuscript 的 exact-title/PMID/PubMed/DOI citation-compliance audit（17/17 anchors PASS；含 4 条 SHS context/multi-omics records）
 - [x] 建立 mitochondrial dynamics / immunometabolism / cGAS–STING / NLRP3 的 mechanistic transfer matrix，明确非 SHS direct evidence
-- [ ] 获取作者级/参与者级证据，确认或排除 2012、2015、2018 的样本重叠
+- [x] 根据三篇原始 PDF 完成公开证据范围内的队列对账；不要求通讯作者回复、公司名单或参与者级资料，无法公开判定的独立性按 unresolved overlap risk 处理
 - [ ] 将 narrative-only working manuscript 继续扩展为完整投稿稿，并对后续新增文献逐条完成 exact-title/PMID/DOI citation compliance
 - [ ] 隔离所有无法核验的 NLR、HRV、OXPHOS 和 fatigue Meta 行后，再生成最终图表与正文数字
 

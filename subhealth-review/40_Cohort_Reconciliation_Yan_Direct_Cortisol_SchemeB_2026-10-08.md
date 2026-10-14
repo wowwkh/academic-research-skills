@@ -89,17 +89,14 @@ The prespecified primary synthesis requires a reasonably compatible exposure def
 
 Accordingly, the primary direct-cortisol result is **narrative synthesis only at this stage**. The existing exploratory pool of MD 32.60 ng/mL (95% CI 11.64–53.56; I² 99.3%) remains reproducible sensitivity material, but it must not appear as the review's primary pooled result.
 
-## What would resolve the gate
+## What would be required to reopen the gate
 
-A final quantitative synthesis would require at least one of the following:
+In principle, a quantitative synthesis could be reconsidered only if a **publicly accessible, non-identifying** source established cohort independence or supplied a defensible cohort identifier, and if the estimand and measurement-compatibility requirements were also met. Examples would include a published protocol, supplement, cohort paper, registry record or correction that explicitly distinguishes the recruitment frames. No employer list, participant-level record, participant identifier or private author response is required for the current review, and this project will not seek confidential information.
 
-1. Author-level confirmation that the 2012, 2015 and 2018 samples are independent, including recruitment years, employer lists and the examination-center sampling frame;
-2. participant-level deduplication or a cohort identifier that allows one report per underlying cohort;
-3. a protocol-approved rule that selects one non-duplicative report per cohort and excludes the LCA-incorporated cortisol contrast from the etiologic pool; or
-4. a decision to present all three only as structured narrative evidence, with no pooled direct-cortisol estimate.
+If no such public evidence exists, the conservative and reproducible decision is to keep all three reports in structured narrative synthesis, retain any numerical combination only as explicitly labelled exploratory sensitivity material, and report the primary direct-cortisol synthesis as **not pooled**. This is a valid evidence-integrity outcome rather than an unfinished request for unpublished participant data.
 
-Until one of these is available, the appropriate GRADE judgment remains **Very low** for the exploratory direct-cortisol evidence, and the historical provisional Meta rows and manuscript numbers must not be replaced silently.
+The appropriate GRADE judgment therefore remains **Very low** for the exploratory direct-cortisol evidence, and the historical provisional Meta rows and manuscript numbers must not be replaced silently.
 
-## Audit limits
+## Audit limits and privacy boundary
 
-This is a source-based reconciliation of the supplied PDFs and verified article identities. It is not a participant-level record linkage, an author response, or visual inspection of every rendered PDF page. “High concern” denotes a justified risk of non-independence or estimand incompatibility; it is not proof that any individual participant was counted twice.
+This is a source-based reconciliation of the supplied PDFs and verified article identities. It is not a participant-level record linkage, an author response, or visual inspection of every rendered PDF page. “High concern” denotes a justified risk of non-independence or estimand incompatibility; it is not proof that any individual participant was counted twice. The review does not request or infer identifiable employer, participant or patient information beyond what the publications already disclose.
