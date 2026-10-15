@@ -156,4 +156,4 @@ This is a reproducibility aid, not a replacement for author-reported adjusted es
 
 ## Required next input
 
-No further upload is required for the 11 supplied PDFs. The immediate next research step is a data-reconciliation pass: decide which verified direct and bridge estimands meet the protocol, remove invalid historical rows, then regenerate Meta, forest plots, GRADE, and numerical prose. The raw ZIP is retained only in Git history for provenance and should not remain as a permanent public source artifact.
+No further upload is required for the original 11-PDF batch. Four additional SHS context/multi-omics PDFs were later supplied and separately audited in `48_Verified_SHS_Original_Evidence_and_PDF_Audit_Addendum_SchemeB_2026-10-15.md`; they do not alter the primary direct-cortisol lock. The immediate next research step is a data-reconciliation pass: decide which verified direct and bridge estimands meet the protocol, remove invalid historical rows, then regenerate Meta, forest plots, GRADE, and numerical prose. The raw ZIP is retained only in Git history for provenance and should not remain as a permanent public source artifact.

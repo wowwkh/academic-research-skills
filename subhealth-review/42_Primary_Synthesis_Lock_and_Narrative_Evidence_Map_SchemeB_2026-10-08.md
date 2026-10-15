@@ -12,7 +12,7 @@ The locked rule is:
 4. Low-grade-inflammation/HRQoL and inflammation/fatigue records remain separate bridge evidence and cannot be pooled with direct SHS-cortisol records.
 5. Historical rows without an exact title, PMID/PubMed link, DOI link and source table remain quarantined.
 
-The machine-readable locked map is `locked_primary_synthesis_evidence_map_SchemeB_2026-10-08.csv`. It contains 11 source-audited estimand rows and zero `pooled_primary` rows.
+The machine-readable locked map is `locked_primary_synthesis_evidence_map_SchemeB_2026-10-08.csv`. It contains 11 source-audited estimand rows and zero `pooled_primary` rows. The map is primary-synthesis scoped; additional narrative-only records are catalogued below and in `47_Verified_SHS_Context_Multiomics_Addendum_SchemeB_2026-10-09.md` and `48_Verified_SHS_Original_Evidence_and_PDF_Audit_Addendum_SchemeB_2026-10-15.md`.
 
 ## Verified source identities and locked roles
 
@@ -31,6 +31,22 @@ The machine-readable locked map is `locked_primary_synthesis_evidence_map_Scheme
 | *The joint subclinical elevation of CRP and IL-6 is associated with lower health-related quality of life in comparison with no elevation or elevation of only one of the biomarkers* | [26195318](https://pubmed.ncbi.nlm.nih.gov/26195318/) | [10.1007/s11136-015-1068-6](https://doi.org/10.1007/s11136-015-1068-6) | Low-grade-inflammation/SF-36 vitality bridge; narrative only |
 | *Low-grade inflammation is negatively associated with physical Health-Related Quality of Life in healthy individuals: Results from The Danish Blood Donor Study (DBDS)* | [30921429](https://pubmed.ncbi.nlm.nih.gov/30921429/) | [10.1371/journal.pone.0214468](https://doi.org/10.1371/journal.pone.0214468) | Low-grade-inflammation/SF-12 physical HRQoL bridge; narrative only |
 | *Association of C-reactive protein and interleukin-6 with new-onset fatigue in the Whitehall II prospective cohort study* | [23151405](https://pubmed.ncbi.nlm.nih.gov/23151405/) | [10.1017/S0033291712002437](https://doi.org/10.1017/S0033291712002437) | Separate-marker inflammation/fatigue bridge; narrative only |
+
+### Verified molecular, oxidative and context records outside the primary pool
+
+These records are part of the narrative evidence map but are not estimand rows in the locked primary cortisol CSV. The two molecular/oxidative records below are online/PMC verified; the cohort-provenance record is design/baseline evidence only; and the four context records are also locally audited at page/hash/table level in file 48.
+
+| Exact title | PMID/PubMed | DOI | Locked role |
+|---|---|---|---|
+| *Telomere Length and Accelerated Biological Aging in the China Suboptimal Health Cohort: A Case-Control Study* | [28617662](https://pubmed.ncbi.nlm.nih.gov/28617662/) | [10.1089/omi.2017.0050](https://doi.org/10.1089/omi.2017.0050) | Direct SHSQ-25 molecular bridge for cellular ageing/replicative stress; narrative only; no cortisol pooling |
+| *Placental lesions and differential expression of pro-and anti-angiogenic growth mediators and oxidative DNA damage marker in placentae of Ghanaian suboptimal and optimal health status pregnant women who later developed preeclampsia* | [35312727](https://pubmed.ncbi.nlm.nih.gov/35312727/) | [10.1371/journal.pone.0265717](https://doi.org/10.1371/journal.pone.0265717) | Pregnancy-specific oxidative/vascular bridge; not generalized to non-pregnant SHS and not pooled |
+| *China suboptimal health cohort study: rationale, design and baseline characteristics* | [27737677](https://pubmed.ncbi.nlm.nih.gov/27737677/) | [10.1186/s12967-016-1046-y](https://doi.org/10.1186/s12967-016-1046-y) | COACS design/baseline provenance only; not a direct mitochondrial or inflammatory endpoint |
+| *Integration of suboptimal health status and endothelial dysfunction as a new aspect for risk evaluation of cardiovascular disease* | [27621756](https://pubmed.ncbi.nlm.nih.gov/27621756/) | [10.1186/s13167-016-0068-0](https://doi.org/10.1186/s13167-016-0068-0) | SHS–endothelial/vascular context; local PDF audit |
+| *Glycomic biomarkers are instrumental for suboptimal health status management in the context of predictive, preventive, and personalized medicine* | [35719133](https://pubmed.ncbi.nlm.nih.gov/35719133/) | [10.1007/s13167-022-00278-1](https://doi.org/10.1007/s13167-022-00278-1) | SHS–IgG N-glycan multi-omics context; local PDF audit |
+| *Conceptualised psycho-medical footprint for health status outcomes and the potential impacts for early detection and prevention of chronic diseases in the context of 3P medicine* | [38094584](https://pubmed.ncbi.nlm.nih.gov/38094584/) | [10.1007/s13167-023-00344-2](https://doi.org/10.1007/s13167-023-00344-2) | SHSQ-25 symptom-network context; local PDF audit; no causal network inference |
+| *The caregiving role influences Suboptimal Health Status and psychological symptoms in unpaid carers* | [39239105](https://pubmed.ncbi.nlm.nih.gov/39239105/) | [10.1007/s13167-024-00370-8](https://doi.org/10.1007/s13167-024-00370-8) | Psychosocial SHS context; local PDF audit; no molecular mediation |
+
+The molecular and contextual records cannot restore a direct cortisol meta-analysis. They are stratified as direct SHSQ-25 molecular bridge, pregnancy-specific bridge or context/multi-omics evidence, while mitochondrial dynamics, cGAS–STING and NLRP3 remain transfer hypotheses rather than SHS population findings.
 
 ## Locked evidence-set counts
 

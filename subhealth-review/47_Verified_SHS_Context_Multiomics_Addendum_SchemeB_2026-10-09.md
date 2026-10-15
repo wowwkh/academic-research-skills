@@ -2,7 +2,7 @@
 
 ## Scope
 
-This addendum expands the narrative evidence map with four exact-identity SHS records identified through PubMed/PMC verification. They are context or mechanistic-roadmap evidence, not additions to the direct cortisol Meta. Their quantitative results are not pooled because they address different populations, outcomes and estimands.
+This addendum expands the narrative evidence map with four exact-identity SHS records initially identified through PubMed/PMC verification. The four supplied original PDFs have now also received a local page-count, SHA-256 and table/abstract audit recorded in `48_Verified_SHS_Original_Evidence_and_PDF_Audit_Addendum_SchemeB_2026-10-15.md`. They remain context or mechanistic-roadmap evidence, not additions to the direct cortisol Meta. Their quantitative results are not pooled because they address different populations, outcomes and estimands.
 
 ## Verified sources
 

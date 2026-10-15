@@ -6,12 +6,12 @@ This audit applies to `44_Source_Audited_Narrative_Review_Manuscript_SchemeB_202
 
 ## Automated result
 
-The audit script `audit_narrative_manuscript_citations_SchemeB.py` passed on 2026-10-09:
+The audit script `audit_narrative_manuscript_citations_SchemeB.py` passed on 2026-10-15:
 
-- verified reference anchors checked: **17**;
-- exact titles present: **17/17**;
-- PMID and PubMed URLs present: **17/17**;
-- DOI strings and DOI URLs present: **17/17**;
+- verified reference anchors checked: **19**;
+- exact titles present: **19/19**;
+- PMID and PubMed URLs present: **19/19**;
+- DOI strings and DOI URLs present: **19/19**;
 - provisional placeholder `CRD42026XXXXX` in the narrative manuscript: **absent**;
 - historical “Ready for Final Submission” status in the narrative manuscript: **absent**;
 - historical “110 studies included” claim in the narrative manuscript: **absent**;
@@ -21,7 +21,7 @@ The machine-readable anchor table is `verified_reference_anchors_narrative_manus
 
 ## Verified anchor inventory
 
-The 17 anchors are divided into one measurement-context source, three direct cortisol records, two low-grade-inflammation/HRQoL bridge records, one inflammation/fatigue bridge record, six mechanistic transfer sources and four verified SHS context/multi-omics records. The four new context records are online-verified PubMed/PMC records and are not represented as local byte-level PDF-audited primary outcomes. Each row in the CSV contains the exact title, PMID, PubMed URL, DOI and DOI URL.
+The 19 anchors are divided into one measurement-context source, three direct cortisol records, two low-grade-inflammation/HRQoL bridge records, one inflammation/fatigue bridge record, six mechanistic transfer sources, four supplied-PDF-audited SHS context/multi-omics records and two online-verified SHSQ-25 molecular/oxidative bridge records. The context records remain non-primary outcomes, and the two molecular/oxidative records are not pooled with cortisol. Each row in the CSV contains the exact title, PMID, PubMed URL, DOI and DOI URL.
 
 ### Measurement context
 
@@ -47,6 +47,11 @@ The 17 anchors are divided into one measurement-context source, three direct cor
 - *Mitochondrial DNA Leakage and cGas/STING Pathway in Microglia: Crosstalk Between Neuroinflammation and Neurodegeneration* — PMID [38685462](https://pubmed.ncbi.nlm.nih.gov/38685462/); DOI [10.1016/j.neuroscience.2024.04.009](https://doi.org/10.1016/j.neuroscience.2024.04.009).
 - *Mitochondrial Damage Causes Inflammation via cGAS-STING Signaling in Acute Kidney Injury* — PMID [31665638](https://pubmed.ncbi.nlm.nih.gov/31665638/); DOI [10.1016/j.celrep.2019.09.050](https://doi.org/10.1016/j.celrep.2019.09.050).
 - *Oxidized mitochondrial DNA activates the NLRP3 inflammasome during apoptosis* — PMID [22342844](https://pubmed.ncbi.nlm.nih.gov/22342844/); DOI [10.1016/j.immuni.2012.01.009](https://doi.org/10.1016/j.immuni.2012.01.009).
+
+### Verified SHSQ-25 molecular and oxidative bridge anchors
+
+- *Telomere Length and Accelerated Biological Aging in the China Suboptimal Health Cohort: A Case-Control Study* — PMID [28617662](https://pubmed.ncbi.nlm.nih.gov/28617662/); DOI [10.1089/omi.2017.0050](https://doi.org/10.1089/omi.2017.0050). Online-verified original human SHSQ-25/telomere study; not locally PDF-audited in this batch.
+- *Placental lesions and differential expression of pro-and anti-angiogenic growth mediators and oxidative DNA damage marker in placentae of Ghanaian suboptimal and optimal health status pregnant women who later developed preeclampsia* — PMID [35312727](https://pubmed.ncbi.nlm.nih.gov/35312727/); DOI [10.1371/journal.pone.0265717](https://doi.org/10.1371/journal.pone.0265717). Online/PMC-verified pregnancy-specific SHS oxidative/vascular study; not locally PDF-audited in this batch.
 
 ### Verified SHS context and multi-omics anchors
 
