@@ -100,6 +100,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 - [x] 完成 44 号 manuscript 的 exact-title/PMID/PubMed/DOI 与 evidence-safety audit（19/19 anchors PASS；quarantined identifiers absent；scope guardrails present）
 - [x] 建立 claim-to-source traceability matrix，逐条区分允许表述与禁止过度推断
 - [x] 在 44 号稿中加入 data/code/ethics 与 funding/COI/authorship 声明门槛；不从文献记录推断作者声明
+- [x] 运行 `audit_narrative_manuscript_structure_SchemeB.py`：必需章节、evidence locks 和 reporting gates PASS
 - [x] 建立 mitochondrial dynamics / immunometabolism / cGAS–STING / NLRP3 的 mechanistic transfer matrix，明确非 SHS direct evidence
 - [x] 根据三篇原始 PDF 完成公开证据范围内的队列对账；不要求通讯作者回复、公司名单或参与者级资料，无法公开判定的独立性按 unresolved overlap risk 处理
 - [x] 审计用户列出的 9+3 PubMed candidate set；将 exact identity、证据角色、scope exclusion 和 pending identity tuple 记录在 48 号 addendum
