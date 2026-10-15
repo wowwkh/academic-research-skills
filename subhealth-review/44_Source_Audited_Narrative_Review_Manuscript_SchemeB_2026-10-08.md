@@ -193,6 +193,14 @@ Strengths include byte-level PDF audit, exact bibliographic verification, page/t
 
 Limitations are substantial. The current phase is not a completed four-database systematic search with dual screening. The supplied PDFs do not provide participant-level identifiers or definitive cohort deduplication. Several direct contrasts are derived from reported means and standard deviations rather than author-reported effect estimates. The evidence does not directly measure the proposed mitochondrial SLIM pathway in SHSQ-25-defined participants. Finally, source-audited bridge studies cannot substitute for direct SHS evidence.
 
+### 4.4 Translational implications and future evidence updates
+
+The current evidence does not support using cortisol, telomere length, glycomic profiles, endothelial measures or any mitochondrial marker as a standalone diagnostic test for SHS. The SHSQ-25 should remain a symptom/health-status measurement instrument rather than being presented as a molecular diagnosis. In clinical or occupational settings, any future risk-stratification use would require prospective calibration, external validation and a prespecified clinical decision consequence; the present records do not establish a biomarker threshold.
+
+The evidence map can be updated without reopening all historical Meta rows. A future study should first close identity and cohort provenance, then report the independent primary estimand, and only then be considered for quantitative synthesis. A new direct-cortisol paper would need compatible SHS classification, cortisol matrix and sampling protocol, an outcome not used to define the exposure, and a defensible independence assessment. A new mitochondrial or innate-immune paper would enter the direct molecular stratum only if it measured the endpoint in an SHSQ-25-defined human population; otherwise it would remain transfer evidence.
+
+This staged update rule protects the review from mechanism-driven citation inflation: biological plausibility can guide measurement selection, but it cannot substitute for direct human evidence.
+
 ## 5. Conclusion
 
 The current source-verified evidence supports narrative, not pooled, direct SHS-cortisol synthesis. The direct reports use non-equivalent SHS classifications, measurement protocols and analytic estimands, and their cohort independence remains unresolved. The 2018 LCA study should be interpreted as diagnostic evidence because cortisol contributes to class assignment. Low-grade-inflammation/HRQoL and inflammation/fatigue studies are useful bridge evidence but must remain separate. SLIM is retained as a hypothesis-generating framework for prospective multi-omic and mitochondrial-dynamics studies, not as a demonstrated causal model. A primary Meta estimate should not be reported until the cohort and estimand gates are resolved.
