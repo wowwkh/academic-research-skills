@@ -5,6 +5,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from evidence_scope_policy_SchemeB import forbidden_identifiers
+
 ROOT = Path(__file__).resolve().parent
 MANUSCRIPT = ROOT / "44_Source_Audited_Narrative_Review_Manuscript_SchemeB_2026-10-08.md"
 
@@ -33,8 +35,7 @@ REQUIRED_EVIDENCE_FILES = (
     "51_Claim_to_Source_Traceability_Matrix_SchemeB_2026-10-15.md",
 )
 FORBIDDEN_IDENTIFIERS = (
-    "31814473",
-    "10.1080/10715762.2019.1685668",
+    *forbidden_identifiers(),
     "CRD42026XXXXX",
     "110 studies included",
     "Ready for Final Submission",

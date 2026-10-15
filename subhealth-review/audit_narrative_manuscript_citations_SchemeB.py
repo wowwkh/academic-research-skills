@@ -6,6 +6,10 @@ from __future__ import annotations
 import csv
 from pathlib import Path
 
+from evidence_scope_policy_SchemeB import (
+    QUARANTINED_OR_SCOPE_EXCLUDED_IDENTIFIERS,
+)
+
 ROOT = Path(__file__).resolve().parent
 MANUSCRIPT = ROOT / "44_Source_Audited_Narrative_Review_Manuscript_SchemeB_2026-10-08.md"
 OUTPUT = ROOT / "verified_reference_anchors_narrative_manuscript_SchemeB_2026-10-08.csv"
@@ -32,18 +36,6 @@ ANCHORS = [
     ("The caregiving role influences Suboptimal Health Status and psychological symptoms in unpaid carers", "39239105", "https://pubmed.ncbi.nlm.nih.gov/39239105/", "10.1007/s13167-024-00370-8", "https://doi.org/10.1007/s13167-024-00370-8", "shs_psychosocial_context"),
 ]
 
-
-# These identifiers are either unresolved or deliberately scope-excluded in file 48.
-# They must not enter the active narrative manuscript unless their status is explicitly
-# re-adjudicated and the citation tuple is independently closed.
-QUARANTINED_OR_SCOPE_EXCLUDED_IDENTIFIERS = (
-    "31814473",
-    "10.1080/10715762.2019.1685668",
-    "30849741",
-    "36564831",
-    "34495543",
-    "38788028",
-)
 
 REQUIRED_SCOPE_GUARDRAILS = (
     "targeted PubMed/PubMed Central",
