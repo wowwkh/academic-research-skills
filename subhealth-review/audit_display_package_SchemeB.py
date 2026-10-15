@@ -27,7 +27,7 @@ FORBIDDEN_ACTIVE_DISPLAY_REFERENCES = (
 REQUIRED_DISPLAY_LOCKS = (
     "RETAIN in main text",
     "EXCLUDE from submission package",
-    "three tables and no final figure",
+    "three retained tables and one draft conceptual figure",
     "does not report a primary pooled estimate",
     "not a current extraction table",
 )

@@ -32,7 +32,7 @@ The 44 manuscript is the audit source. The 57 copy is a separate journal-facing 
 
 - Direct SHS–cortisol primary pooled estimate: **0**; no direct estimate is to be invented from bridge or mechanistic-transfer evidence.
 - References: **19 Vancouver-numbered references** in the current journal-facing copy.
-- Tables: **3**. Final figures: **0**; exploratory/internal figure files are not final display claims.
+- Tables: **3**. One evidence-bounded conceptual Figure 1 is prepared as an author-review draft; the final figure count remains **pending author approval**. Exploratory/internal figure files are not final display claims.
 - Any unconfirmed author, declaration, submission, or editorial field remains `*`.
 - Evidence from other diseases, experimental systems, or mechanistic models is labelled as bridge/transfer evidence and cannot be presented as direct SHS evidence.
 - The repository must not add causal, diagnostic, or absolute-absence claims that the source audit does not support.

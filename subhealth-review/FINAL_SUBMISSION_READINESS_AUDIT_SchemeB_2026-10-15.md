@@ -27,7 +27,7 @@ The audit does **not** convert the targeted evidence-verification phase into a s
 | Citation order | PASS | In-text citation markers 1–19 and reference entries 1–19 are present and ordered |
 | Reference identity | PASS | 19 title/PMID/DOI tuples match the verified metadata register |
 | Main-text tables | PASS | Three labelled tables are retained and safeguarded against evidence inflation |
-| Final figures | PASS for current plan | No final figure is promoted; exploratory forest plots and historical PRISMA files remain excluded |
+| Final figures | DRAFT READY; final decision pending | One evidence-bounded conceptual Figure 1 has been prepared in the author-review Word package; it is not yet a final figure. Exploratory forest plots and historical PRISMA files remain excluded |
 | Primary synthesis | PASS | Direct SHS–cortisol primary pooled estimate remains 0 |
 | Evidence boundaries | PASS | Direct, bridge, context and mechanistic-transfer evidence remain separated |
 | Claim language | PASS | No unsupported diagnostic, causal or absolute-absence claims were detected by the current audits |
@@ -54,10 +54,10 @@ Files 55 and 56 currently record the following decisions as pending:
 - final-figure decision; and
 - final-table decision.
 
-The evidence-safe current recommendation is:
+The evidence-safe current author-review package is:
 
 - **three main-text tables retained**;
-- **zero final figures**; and
+- **one conceptual Figure 1 draft prepared for review; final figure count remains pending author approval**; and
 - **no supplementary files**, unless the authors deliberately choose to submit a supplementary package.
 
 The exploratory figures, historical PRISMA diagram, GRADE files and audit CSVs must not be silently uploaded as supplementary material. If no supplement is selected, the final manuscript should contain an explicit “No supplementary information accompanies this submission” statement where required by the journal.
@@ -71,9 +71,17 @@ The repository previously contained the placeholder register but not a completed
 
 They remain templates until the authors replace the marked fields. The following still require author confirmation: author order, affiliations/institutions, ORCID, corresponding-author details, running title, funding, competing interests, author contributions, originality/exclusive-submission wording and any suggested-reviewer information.
 
-### 4. The manuscript is content-complete Markdown, not a final upload file
+### 4. The manuscript is now available as an author-review Word package, not a final upload package
 
-File 57 is a clean content copy. It is not yet a final Word/PDF submission artifact with journal pagination, table placement, title-page separation and final proofing. The final upload version must be produced only after the fields above are closed.
+The following author-review files have now been generated under `submission-package-2026-10-15/`:
+
+- main manuscript Word file with body, three tables, 19 references and one draft conceptual figure;
+- independent title-page Word template;
+- independent cover-letter Word template;
+- separate Word copy of Tables 1–3; and
+- separate PNG/PDF copies of Figure 1.
+
+These are review artifacts rather than final upload files because title-page fields, author declarations, the figure decision and final proofing remain open.
 
 ### 5. Final length needs an independent production check
 
@@ -105,7 +113,7 @@ The following wording is evidence-compatible but should be confirmed before inse
 3. Author confirms three tables and zero final figures for the current package.
 4. Insert/approve the data, code and ethics wording.
 5. Finalize the title page and cover letter.
-6. Convert 57 into the target journal’s upload format, recalculate word count and proof every table, citation, DOI and declaration.
+6. Proof the generated Word package in the target journal’s upload format, recalculate word count and proof every table, figure, citation, DOI and declaration.
 7. Re-run all audit scripts and perform a final human read-through immediately before submission.
 
 Until steps 1–6 are complete, the correct status is **final scientific review / conditional journal-facing draft**, not “ready to submit.”
