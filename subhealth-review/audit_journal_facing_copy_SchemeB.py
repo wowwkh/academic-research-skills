@@ -73,6 +73,8 @@ def main() -> None:
             raise SystemExit(f"Clean Vancouver reference {number} is missing")
     if "20. " in references:
         raise SystemExit("Clean copy contains an unexpected twentieth Vancouver reference")
+    if re.search(r"doi:[^\n]+\.\.", references):
+        raise SystemExit("Clean copy contains duplicated terminal punctuation after a DOI")
 
     print(
         "Clean journal-facing copy audit PASS: PMID/internal navigation removed; "

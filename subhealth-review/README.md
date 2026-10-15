@@ -4,7 +4,7 @@
 **Active project:** a source-audited narrative review of SHSQ-25-defined suboptimal health status (SHS).  
 **Active branch:** `arena/01a09fcc-academic-research-skills`
 
-This directory contains only the current `34`–`57` audit and submission milestones plus the supporting audit data, scripts, and exploratory display files. The earlier `01`–`33` planning and provisional drafts were retired during workspace cleanup and must not be treated as the active manuscript.
+This directory contains the current `34`–`57` audit and submission milestones, the strict submission-readiness audit, clearly named title-page/cover-letter templates, and the supporting audit data, scripts, and exploratory display files. The earlier `01`–`33` planning and provisional drafts were retired during workspace cleanup and must not be treated as the active manuscript.
 
 ## Read these first
 
@@ -13,7 +13,11 @@ This directory contains only the current `34`–`57` audit and submission milest
 2. **57 — independent journal-facing clean copy**  
    `57_Journal_Facing_Submission_Copy_SchemeB_2026-10-15.md`
 3. **50–56 — locked gates for identity, traceability, journal format, displays, and declarations**
-4. **48–49 — latest SHS original-evidence audit and next-audit gate**
+4. **Final submission-readiness audit**
+   `FINAL_SUBMISSION_READINESS_AUDIT_SchemeB_2026-10-15.md`
+5. **Title-page and cover-letter templates**
+   `TITLE_PAGE_TEMPLATE_SchemeB_2026-10-15.md` and `COVER_LETTER_TEMPLATE_SchemeB_2026-10-15.md`
+6. **48–49 — latest SHS original-evidence audit and next-audit gate**
 
 The 44 manuscript is the audit source. The 57 copy is a separate journal-facing derivative; do not merge its clean presentation back into 44 or treat it as a replacement for source-audit notes.
 

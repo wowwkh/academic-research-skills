@@ -11,6 +11,8 @@ The active project in this repository is the **SHSQ-25-defined suboptimal-health
 - **Vancouver order map:** `subhealth-review/54_Vancouver_Citation_Order_Map_SchemeB_2026-10-15.md`
 - **Display-package gate:** `subhealth-review/55_MolPsychiatry_Display_Package_Audit_SchemeB_2026-10-15.md`
 - **Author/declaration placeholders:** `subhealth-review/56_Submission_Metadata_and_Declaration_Placeholders_SchemeB_2026-10-15.md`
+- **Strict submission-readiness audit:** `subhealth-review/FINAL_SUBMISSION_READINESS_AUDIT_SchemeB_2026-10-15.md`
+- **Title-page and cover-letter templates:** `subhealth-review/TITLE_PAGE_TEMPLATE_SchemeB_2026-10-15.md` and `subhealth-review/COVER_LETTER_TEMPLATE_SchemeB_2026-10-15.md`
 
 ## Naming convention
 
