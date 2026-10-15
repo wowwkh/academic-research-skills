@@ -16,7 +16,7 @@ The citation and evidence-safety audit script `audit_narrative_manuscript_citati
 - historical “Ready for Final Submission” status in the narrative manuscript: **absent**;
 - historical “110 studies included” claim in the narrative manuscript: **absent**;
 - primary pooled direct-cortisol rows in the locked evidence map: **0**;
-- quarantined/scope-excluded candidate identifiers in the active manuscript: **absent**; targeted-search guardrails: **present**;
+- quarantined/scope-excluded candidate identifiers in the active manuscript: **absent**; targeted-search and non-absolute-absence wording guardrails: **present**;
 - manuscript structure audit: **PASS**; required sections, evidence locks and reporting gates are present.
 
 The machine-readable anchor table is `verified_reference_anchors_narrative_manuscript_SchemeB_2026-10-08.csv`; the human-readable identity-and-role companion is `50_Verified_Reference_Register_SchemeB_2026-10-15.md`. Claim-level wording constraints are recorded in `51_Claim_to_Source_Traceability_Matrix_SchemeB_2026-10-15.md`.

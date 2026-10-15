@@ -43,6 +43,19 @@ REQUIRED_SCOPE_GUARDRAILS = (
     "pregnancy-specific",
 )
 
+# Wording that would turn a bounded targeted-search finding into an unsupported
+# claim about the entire literature. The manuscript may still say that an endpoint
+# was not found *within the present search scope*.
+ABSOLUTE_ABSENCE_PATTERNS = (
+    "no such study exists",
+    "no such studies exist",
+    "there are no studies",
+    "there are no reports",
+    "has never been studied",
+    "have never been studied",
+    "no paper has ever reported",
+)
+
 
 def main() -> None:
     text = MANUSCRIPT.read_text(encoding="utf-8")
@@ -69,6 +82,13 @@ def main() -> None:
     for phrase in forbidden_placeholders:
         if phrase in text:
             raise SystemExit(f"Forbidden provisional phrase remains in narrative manuscript: {phrase}")
+    lowered_text = text.casefold()
+    for phrase in ABSOLUTE_ABSENCE_PATTERNS:
+        if phrase in lowered_text:
+            raise SystemExit(
+                "Unsupported absolute-absence wording remains in narrative manuscript: "
+                f"{phrase}"
+            )
     for identifier in QUARANTINED_OR_SCOPE_EXCLUDED_IDENTIFIERS:
         if identifier in text:
             raise SystemExit(f"Quarantined or scope-excluded identifier entered the active manuscript: {identifier}")
@@ -85,7 +105,7 @@ def main() -> None:
         writer.writerows(rows)
     print(
         f"Citation and evidence-safety audit PASS: {len(rows)} verified anchors; "
-        f"quarantined identifiers absent; scope guardrails present; output={OUTPUT}"
+        f"quarantined identifiers absent; scope guardrails and non-absolute wording present; output={OUTPUT}"
     )
 
 
