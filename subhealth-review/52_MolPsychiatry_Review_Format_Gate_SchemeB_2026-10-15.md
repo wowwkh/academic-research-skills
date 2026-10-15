@@ -34,9 +34,9 @@ The journal page should be rechecked immediately before submission because journ
 | Display-item budget | **PROVISIONAL PASS** | File 55 retains three safeguarded main-text tables and excludes exploratory legacy displays; no final figure is currently included |
 | Vancouver numbered citations | **PROVISIONAL PASS; final journal cleanup pending** | 44 now carries 19 first-citation numeric markers and a working Vancouver list; `audit_vancouver_citation_order_SchemeB.py` and file 54 confirm order/tuple preservation |
 | Full reference metadata | **PROVISIONAL PASS; final freeze pending** | File 53 contains 19 journal-formatted candidate entries and a machine-readable register; `audit_reference_metadata_SchemeB.py` confirms exact title/PMID/DOI tuple preservation and populated journal fields |
-| Supplementary-information statement | **PENDING** | Add only if supplementary files are actually submitted; do not imply that exploratory legacy figures are final supplements |
-| Author and affiliation page | **PENDING author confirmation** | Do not invent author order, affiliations, ORCID, correspondence or contact information |
-| Funding/COI/contributions | **PENDING author confirmation** | Do not infer these statements from cited articles or source PDFs |
+| Supplementary-information statement | **PLACEHOLDER SAVED; author decision required** | File 56 records `*`; add a journal statement only if supplementary files are actually submitted |
+| Author and affiliation page | **PLACEHOLDER SAVED; author confirmation required** | File 56 records `*`; do not invent author order, affiliations, ORCID, correspondence or contact information |
+| Funding/COI/contributions | **PLACEHOLDER SAVED; author confirmation required** | File 56 records `*`; do not infer these statements from cited articles or source PDFs |
 
 ## Presentation rule
 
@@ -44,4 +44,4 @@ The source-audited title/PMID/DOI anchors are retained during the evidence phase
 
 ## Current decision
 
-The manuscript has passed the abstract-format gate, provisional metadata gate, provisional citation-order gate and provisional display-package gate but has **not** passed the final submission-format gate. The remaining presentation work is final journal cleanup, figure/supplement decision and author-supplied submission information; none may change evidence roles or add unsupported claims.
+The manuscript has passed the abstract-format gate, provisional metadata gate, provisional citation-order gate and provisional display-package gate but has **not** passed the final submission-format gate. Author/declaration and figure/supplement fields are now saved as `*` placeholders in file 56. The remaining presentation work is final journal cleanup and replacement of those placeholders with author-confirmed information; none may change evidence roles or add unsupported claims.

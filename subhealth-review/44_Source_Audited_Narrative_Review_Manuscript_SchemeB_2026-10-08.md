@@ -213,6 +213,22 @@ No new human participants were recruited and no participant-level record linkage
 
 Funding, conflict-of-interest, author-contribution and correspondence statements are not inferred from article PDFs or bibliographic records. They require author-supplied confirmation before a submission package is prepared. No such statement should be fabricated from the evidence audit.
 
+### Author-completion placeholders — not for submission
+
+The following fields are intentionally blank and marked `*`; replace them only with author-confirmed information before submission. The full placeholder list is in `56_Submission_Metadata_and_Declaration_Placeholders_SchemeB_2026-10-15.md`.
+
+- Running title: `*`
+- Author names and order: `*`
+- Affiliations: `*`
+- ORCID identifiers: `*`
+- Corresponding author and email: `*`
+- Funding statement: `*`
+- Competing-interest statement: `*`
+- Author-contribution statement: `*`
+- Supplementary-information decision: `*`
+- Final figure decision: `*`
+- Final table decision: `*`
+
 ### Abbreviations
 
 SHS, suboptimal health status; SHSQ-25, Suboptimal Health Status Questionnaire-25; HPA, hypothalamic–pituitary–adrenal; GR, glucocorticoid receptor; RTL, relative telomere length; HRQoL, health-related quality of life; HRV, heart-rate variability; OXPHOS, oxidative phosphorylation; mtDNA, mitochondrial DNA; cGAS–STING, cyclic GMP–AMP synthase–stimulator of interferon genes; NLRP3, NOD-like receptor family pyrin domain containing 3; SLIM, Suboptimal health–Low-grade inflammation–ImmunoMetabolic stress.
@@ -256,3 +272,4 @@ The following working reference list uses the first-citation order of the active
 - `53_Verified_Reference_Metadata_Register_SchemeB_2026-10-15.csv`
 - `54_Vancouver_Citation_Order_Map_SchemeB_2026-10-15.md`
 - `55_MolPsychiatry_Display_Package_Audit_SchemeB_2026-10-15.md`
+- `56_Submission_Metadata_and_Declaration_Placeholders_SchemeB_2026-10-15.md`
