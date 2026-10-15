@@ -35,6 +35,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 | 机制转移矩阵 | 46_Mechanistic_Transfer_Evidence_Matrix_SchemeB | — | 6 条 mechanistic-transfer records；仅作 transfer/hypothesis boundary |
 | SHS context/multi-omics addendum | 47_Verified_SHS_Context_Multiomics_Addendum_SchemeB | — | 4 条 exact-identity records：vascular bridge、glycomic roadmap、symptom network、psychosocial context |
 | 新增原始证据/PDF audit | 48_Verified_SHS_Original_Evidence_and_PDF_Audit_Addendum_SchemeB | — | 4 篇 supplied PDFs 完成 page/hash/table audit；新增 2 条 online-verified molecular/oxidative bridge；quarantine identity conflict |
+| 原文请求与下一审计门槛 | 49_Original_Source_Request_and_Next_Audit_Gate_SchemeB | — | 仅请求 PMID 28617662 telomere 原文；35312727 full text 已可在线核验，其余记录不需重复上传 |
 
 ---
 
@@ -99,6 +100,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 - [x] 根据三篇原始 PDF 完成公开证据范围内的队列对账；不要求通讯作者回复、公司名单或参与者级资料，无法公开判定的独立性按 unresolved overlap risk 处理
 - [x] 审计用户列出的 9+3 PubMed candidate set；将 exact identity、证据角色、scope exclusion 和 pending identity tuple 记录在 48 号 addendum
 - [x] 固化 2026-10-15 targeted candidate verification 的检索范围、日期和筛选边界；不将未命中写成绝对不存在
+- [x] 在 49 号文件中明确原文请求：优先 PMID 28617662 telomere full text；现有其他核心记录不需重复上传
 - [ ] 将 narrative-only working manuscript 继续扩展为完整投稿稿，并对后续新增文献逐条完成 exact-title/PMID/DOI citation compliance
 - [ ] 隔离所有无法核验的 NLR、HRV、OXPHOS 和 fatigue Meta 行后，再生成最终图表与正文数字
 
