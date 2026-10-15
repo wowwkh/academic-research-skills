@@ -36,6 +36,9 @@ REQUIRED_EVIDENCE_FILES = (
     "50_Verified_Reference_Register_SchemeB_2026-10-15.md",
     "51_Claim_to_Source_Traceability_Matrix_SchemeB_2026-10-15.md",
     "52_MolPsychiatry_Review_Format_Gate_SchemeB_2026-10-15.md",
+    "53_Verified_Reference_Metadata_Register_SchemeB_2026-10-15.md",
+    "53_Verified_Reference_Metadata_Register_SchemeB_2026-10-15.csv",
+    "54_Vancouver_Citation_Order_Map_SchemeB_2026-10-15.md",
 )
 FORBIDDEN_IDENTIFIERS = (
     *forbidden_identifiers(),

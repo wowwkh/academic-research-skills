@@ -32,8 +32,8 @@ The journal page should be rechecked immediately before submission because journ
 | Abstract word count | **PASS** | 44 abstract: approximately 213 words under the 150–250-word range |
 | Main-text length | **WORKING PASS** | 44 main narrative is approximately 4,600 words excluding the evidence-file navigation block; assess final word count after numbered references, tables and legends are formatted |
 | Display-item budget | **NOT YET LOCKED** | No final figures/tables are assigned to the submission package; exploratory legacy forest plots remain non-final |
-| Vancouver numbered citations | **PENDING** | Current manuscript uses title/PMID/DOI audit anchors for source safety; convert to sequential Vancouver citations only after the full 19-item bibliographic metadata pass is closed |
-| Full reference metadata | **PENDING** | File 50 verifies exact title, PMID and DOI for 19 anchors but intentionally does not yet claim a complete journal-formatted author list |
+| Vancouver numbered citations | **PROVISIONAL PASS; final journal cleanup pending** | 44 now carries 19 first-citation numeric markers and a working Vancouver list; `audit_vancouver_citation_order_SchemeB.py` and file 54 confirm order/tuple preservation |
+| Full reference metadata | **PROVISIONAL PASS; final freeze pending** | File 53 contains 19 journal-formatted candidate entries and a machine-readable register; `audit_reference_metadata_SchemeB.py` confirms exact title/PMID/DOI tuple preservation and populated journal fields |
 | Supplementary-information statement | **PENDING** | Add only if supplementary files are actually submitted; do not imply that exploratory legacy figures are final supplements |
 | Author and affiliation page | **PENDING author confirmation** | Do not invent author order, affiliations, ORCID, correspondence or contact information |
 | Funding/COI/contributions | **PENDING author confirmation** | Do not infer these statements from cited articles or source PDFs |
@@ -44,4 +44,4 @@ The source-audited title/PMID/DOI anchors are retained during the evidence phase
 
 ## Current decision
 
-The manuscript has passed the abstract-format gate but has **not** passed the final submission-format gate. The next evidence-safe formatting step is to close the 19-anchor journal metadata table and generate sequential Vancouver references without changing evidence roles or adding unsupported claims.
+The manuscript has passed the abstract-format gate, provisional metadata gate and provisional citation-order gate but has **not** passed the final submission-format gate. The remaining presentation work is final journal cleanup, display-package selection and author-supplied submission information; none may change evidence roles or add unsupported claims.
