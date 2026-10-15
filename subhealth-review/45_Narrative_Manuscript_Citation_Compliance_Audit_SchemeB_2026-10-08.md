@@ -6,7 +6,7 @@ This audit applies to `44_Source_Audited_Narrative_Review_Manuscript_SchemeB_202
 
 ## Automated result
 
-The audit script `audit_narrative_manuscript_citations_SchemeB.py` passed on 2026-10-15:
+The citation and evidence-safety audit script `audit_narrative_manuscript_citations_SchemeB.py` passed on 2026-10-15:
 
 - verified reference anchors checked: **19**;
 - exact titles present: **19/19**;
@@ -15,7 +15,8 @@ The audit script `audit_narrative_manuscript_citations_SchemeB.py` passed on 202
 - provisional placeholder `CRD42026XXXXX` in the narrative manuscript: **absent**;
 - historical “Ready for Final Submission” status in the narrative manuscript: **absent**;
 - historical “110 studies included” claim in the narrative manuscript: **absent**;
-- primary pooled direct-cortisol rows in the locked evidence map: **0**.
+- primary pooled direct-cortisol rows in the locked evidence map: **0**;
+- quarantined/scope-excluded candidate identifiers in the active manuscript: **absent**; targeted-search guardrails: **present**.
 
 The machine-readable anchor table is `verified_reference_anchors_narrative_manuscript_SchemeB_2026-10-08.csv`.
 

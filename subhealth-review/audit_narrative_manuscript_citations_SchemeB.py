@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit exact-title/PMID/DOI anchors in the source-audited manuscript."""
+"""Audit exact-title/PMID/DOI anchors and evidence-safety guardrails."""
 
 from __future__ import annotations
 
@@ -33,6 +33,25 @@ ANCHORS = [
 ]
 
 
+# These identifiers are either unresolved or deliberately scope-excluded in file 48.
+# They must not enter the active narrative manuscript unless their status is explicitly
+# re-adjudicated and the citation tuple is independently closed.
+QUARANTINED_OR_SCOPE_EXCLUDED_IDENTIFIERS = (
+    "31814473",
+    "10.1080/10715762.2019.1685668",
+    "30849741",
+    "36564831",
+    "34495543",
+    "38788028",
+)
+
+REQUIRED_SCOPE_GUARDRAILS = (
+    "targeted PubMed/PubMed Central",
+    "not an absolute absence claim",
+    "pregnancy-specific",
+)
+
+
 def main() -> None:
     text = MANUSCRIPT.read_text(encoding="utf-8")
     rows: list[dict[str, str]] = []
@@ -58,6 +77,12 @@ def main() -> None:
     for phrase in forbidden_placeholders:
         if phrase in text:
             raise SystemExit(f"Forbidden provisional phrase remains in narrative manuscript: {phrase}")
+    for identifier in QUARANTINED_OR_SCOPE_EXCLUDED_IDENTIFIERS:
+        if identifier in text:
+            raise SystemExit(f"Quarantined or scope-excluded identifier entered the active manuscript: {identifier}")
+    for phrase in REQUIRED_SCOPE_GUARDRAILS:
+        if phrase not in text:
+            raise SystemExit(f"Required evidence-scope guardrail is missing from the manuscript: {phrase}")
     if any(row["all_anchor_checks_pass"] != "PASS" for row in rows):
         raise SystemExit("At least one verified reference anchor is incomplete")
 
@@ -66,7 +91,10 @@ def main() -> None:
         writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
-    print(f"Citation audit PASS: {len(rows)} verified anchors; output={OUTPUT}")
+    print(
+        f"Citation and evidence-safety audit PASS: {len(rows)} verified anchors; "
+        f"quarantined identifiers absent; scope guardrails present; output={OUTPUT}"
+    )
 
 
 if __name__ == "__main__":
