@@ -87,6 +87,10 @@ For descriptive transparency, mean differences were calculated as the reported S
 
 The reconciliation recorded recruitment period, employer or sampling frame, hospital/health-centre source, author overlap, sample flow, age range, SHS definition, cortisol matrix, fasting/sampling time and assay. “High concern” indicates that independence or estimand compatibility could not be demonstrated; it does not prove duplicate participants.
 
+### 2.5 Targeted candidate verification and search boundary
+
+The 2026-10-15 candidate pass used targeted PubMed/PubMed Central record review, DOI/DOI-page matching and the supplied PDFs. It was not a new comprehensive PubMed, Embase, Web of Science or CNKI search and did not include independent dual screening. A record entered the active evidence map only when its exact title, PMID/PubMed URL and DOI/DOI URL matched the same article and its population/outcome role was compatible with the narrative question. Pregnancy-specific, intervention, psychosocial, context/multi-omics, mechanistic-transfer and cohort-provenance records were retained in separate strata. Reviews/book chapters, TCM/BDT interventions, MetS-only analyses and unresolved identity tuples were not promoted to direct SHS molecular evidence. Non-detection of CRP/IL-6, strict HRV or specific mitochondrial/innate-immune endpoints is therefore reported only within this targeted search scope and is not an absolute absence claim.
+
 ## 3. Results
 
 ### 3.1 Direct source-audited cortisol evidence

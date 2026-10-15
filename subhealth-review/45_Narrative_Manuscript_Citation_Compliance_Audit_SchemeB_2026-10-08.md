@@ -68,6 +68,7 @@ The 19 anchors are divided into one measurement-context source, three direct cor
 - The Swedish, Danish and Whitehall sources are labelled bridge evidence and are not mixed with direct SHS/cortisol data.
 - Mitochondrial dynamics, immune-metabolic reprogramming and SLIM thresholds are explicitly marked as hypotheses or research priorities because they are not measured in the current SHSQ-25 source-audited records.
 - The narrative manuscript does not claim a completed four-database search, dual screening, PROSPERO registration or a final 110-study evidence base.
+- The targeted 2026-10-15 candidate pass is explicitly bounded; non-detection of CRP/IL-6, strict HRV or specific mitochondrial/innate-immune endpoints is not phrased as absolute absence.
 
 ## Remaining citation work before submission
 

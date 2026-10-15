@@ -9,6 +9,12 @@ This addendum records two linked updates:
 
 These records are not pooled with the direct SHS–cortisol estimates. They are assigned to context, molecular bridge or pregnancy-specific oxidative/vascular bridge roles. None demonstrates mitochondrial dynamics mediation, cGAS–STING activation or NLRP3 activation in SHSQ-25-defined participants.
 
+## Search and adjudication boundary
+
+The candidate identity checks documented here were performed on 2026-10-15 using targeted PubMed/PubMed Central record review, DOI/DOI-page matching and the supplied PDFs. This was a source-verification and scope-adjudication pass, not a new comprehensive search of PubMed, Embase, Web of Science, CNKI or other databases, and it did not include independent dual screening. The candidate set was the user-supplied 9+3 list and the four supplied context PDFs.
+
+A record entered the active final evidence map only when the exact title, PMID/PubMed URL and DOI/DOI URL could be matched to the same article and its population/outcome role was compatible with the narrative question. Original human SHSQ-25 evidence was separated from pregnancy-specific, intervention, psychosocial, context/multi-omics, mechanistic-transfer and cohort-provenance evidence. Reviews/book chapters, TCM/BDT intervention evidence, MetS-only analyses and unresolved identity tuples were not promoted to direct SHS molecular evidence. A targeted pass that did not identify a requested endpoint is recorded only as “not found within this search scope”; it is not evidence that the endpoint does not exist.
+
 ## A. Four supplied PDFs: local identity and page-level audit
 
 | Record | Supplied filename | Exact identity | PMID | DOI | Supplied PDF pages | SHA-256 | Locked role |

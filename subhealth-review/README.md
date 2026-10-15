@@ -82,9 +82,9 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 
 ---
 
-## 📌 当前下一步：等待队列独立性证据或进入 narrative-only 写作
+## 📌 当前下一步：扩展 narrative-only 稿并保持检索边界可审计
 
-- [x] 读取 11 个 PDF 并记录 SHA-256、页数、exact title、PMID/PubMed、DOI、页码和表号
+- [x] 完成原始 11 个 PDF 的 SHA-256/页数/来源审计，并对新增 4 篇 SHS context/multi-omics PDF 完成 page/hash/table audit
 - [x] 建立 PDF-audited extraction CSV
 - [x] 重新计算 3 个直接 cortisol 报告的 study-level effect、探索性 pooled effect 和 leave-one-out 敏感性分析
 - [x] 生成明确标注为 exploratory 的 source-audited forest plot 和 GRADE 判断
@@ -97,6 +97,8 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 - [x] 完成 44 号 manuscript 的 exact-title/PMID/PubMed/DOI citation-compliance audit（19/19 anchors PASS；含 4 条 SHS context/multi-omics records 和 2 条 molecular/oxidative bridges）
 - [x] 建立 mitochondrial dynamics / immunometabolism / cGAS–STING / NLRP3 的 mechanistic transfer matrix，明确非 SHS direct evidence
 - [x] 根据三篇原始 PDF 完成公开证据范围内的队列对账；不要求通讯作者回复、公司名单或参与者级资料，无法公开判定的独立性按 unresolved overlap risk 处理
+- [x] 审计用户列出的 9+3 PubMed candidate set；将 exact identity、证据角色、scope exclusion 和 pending identity tuple 记录在 48 号 addendum
+- [x] 固化 2026-10-15 targeted candidate verification 的检索范围、日期和筛选边界；不将未命中写成绝对不存在
 - [ ] 将 narrative-only working manuscript 继续扩展为完整投稿稿，并对后续新增文献逐条完成 exact-title/PMID/DOI citation compliance
 - [ ] 隔离所有无法核验的 NLR、HRV、OXPHOS 和 fatigue Meta 行后，再生成最终图表与正文数字
 
