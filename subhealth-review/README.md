@@ -41,6 +41,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 | Mol Psychiatry format gate | 52_MolPsychiatry_Review_Format_Gate_SchemeB_2026-10-15 | — | 44 号稿 abstract 已调整为 150–250 字非结构式；19 条 journal-formatted candidate metadata 已通过 tuple-preservation audit；Vancouver citation order 和 submission display package 仍待完成 |
 | verified journal metadata | 53_Verified_Reference_Metadata_Register_SchemeB_2026-10-15 + CSV | — | 19 条 candidate Vancouver entries；exact title/PMID/DOI 与 50 号 register 一致；已通过 metadata audit |
 | Vancouver citation-order map | 54_Vancouver_Citation_Order_Map_SchemeB_2026-10-15 | — | 19/19 first-citation markers 与 19/19 working reference entries 顺序一致；最终 journal cleanup 尚未完成 |
+| Mol Psychiatry display package | 55_MolPsychiatry_Display_Package_Audit_SchemeB_2026-10-15 | — | 保留 3 个有 caption guardrail 的 main-text tables；排除历史 exploratory forest plots、PRISMA 和 legacy GRADE displays；当前无 final figure |
 
 ---
 
@@ -108,6 +109,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 - [x] 扩展 44 号稿 Discussion：加入 translational implications 与未来证据更新门槛，不增加未经核验文献
 - [x] 按 Molecular Psychiatry Review Article 要求将 44 号稿 abstract 改为 150–250 字非结构式，并建立 52 号格式 gate
 - [x] 建立 53 号 19-anchor journal-formatted metadata register，并通过 title/PMID/DOI tuple-preservation audit；Vancouver citation-order map 已完成并通过 54 号 audit
+- [x] 完成 55 号 display-package audit：保留 3 个 main-text tables，排除 legacy exploratory displays，未把任何 final figure 或 pooled estimate 加入投稿包
 - [x] 建立 mitochondrial dynamics / immunometabolism / cGAS–STING / NLRP3 的 mechanistic transfer matrix，明确非 SHS direct evidence
 - [x] 根据三篇原始 PDF 完成公开证据范围内的队列对账；不要求通讯作者回复、公司名单或参与者级资料，无法公开判定的独立性按 unresolved overlap risk 处理
 - [x] 审计用户列出的 9+3 PubMed candidate set；将 exact identity、证据角色、scope exclusion 和 pending identity tuple 记录在 48 号 addendum

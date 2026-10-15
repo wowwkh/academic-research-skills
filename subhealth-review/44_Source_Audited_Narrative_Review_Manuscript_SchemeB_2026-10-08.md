@@ -81,6 +81,8 @@ The 2026-10-15 candidate pass used targeted PubMed/PubMed Central record review,
 
 The exact identities and locked synthesis roles are provided below. All three reports are retained for narrative transparency, but none is assigned to the primary pooled estimate.
 
+**Table 1. Source-audited direct SHS–cortisol reports and pooling disposition.** Values labelled derived are calculated from source-reported group summaries; the table does not constitute a primary pooled estimate.
+
 | Report | Source-located data | Derived study-level contrast | Locked interpretation |
 |---|---|---|---|
 | *Association of Suboptimal Health Status and Cardiovascular Risk Factors in Urban Chinese Workers*; PMID [22203493](https://pubmed.ncbi.nlm.nih.gov/22203493/); DOI [10.1007/s11524-011-9636-8](https://doi.org/10.1007/s11524-011-9636-8) [8] | Serum cortisol: high sample-median SHS score ≥44, n=1,547, 204.31 ± 40.06 ng/mL; low score <44, n=1,472, 161.33 ± 27.83 ng/mL; PDF p.6 Table 2 | MD 42.98 ng/mL; derived 95% CI 40.53–45.43 | Potentially etiologic, but recruitment period and employer overlap are unresolved; raw serum estimate not pooled |
@@ -131,6 +133,8 @@ Together, these records permit a more precise translational bridge—SHS phenoty
 
 The 19 verified anchors are article-level records, not 19 interchangeable biomarker studies. Their roles and permissible inferences are therefore kept separate:
 
+**Table 2. Evidence strata and permissible inference boundaries.** Counts refer to verified article-level records, not independent cohorts or interchangeable biomarker studies.
+
 | Evidence stratum | Article-level records | Source/audit status | Permissible inference | Not permissible |
 |---|---:|---|---|---|
 | SHSQ-25 measurement context | 1 | Exact title/PMID/DOI verified; source role recorded in file 45 | Defines the questionnaire construct and cutoff context | Biomarker effect or mechanistic conclusion |
@@ -159,6 +163,8 @@ The SLIM model places mitochondrial dynamics upstream of a proposed reversible c
 A high-quality validation study would recruit a clearly defined SHSQ-25 cohort, record symptom duration, exclude organic disease, and sample the same participants longitudinally. It should measure cortisol with a prespecified time protocol, CRP/IL-6 and routine cell counts, autonomic measures, PBMC respiration and glycolytic flux, targeted lactate/succinate, mitochondrial-DNA release and phosphorylation-level mitochondrial-dynamics markers. The primary analysis should distinguish temporal prediction from cross-sectional association and should pre-register how repeated measures and cohort clustering are handled.
 
 The following design matrix is a prospective recommendation, not an extraction from the current evidence:
+
+**Table 3. Prospective validation matrix for direct SHSQ-25 human evidence.** This is a study-design recommendation and must not be read as a current evidence-extraction table.
 
 | Validation domain | Minimum reporting requirement | Guardrail against over-interpretation |
 |---|---|---|
@@ -249,3 +255,4 @@ The following working reference list uses the first-citation order of the active
 - `53_Verified_Reference_Metadata_Register_SchemeB_2026-10-15.md`
 - `53_Verified_Reference_Metadata_Register_SchemeB_2026-10-15.csv`
 - `54_Vancouver_Citation_Order_Map_SchemeB_2026-10-15.md`
+- `55_MolPsychiatry_Display_Package_Audit_SchemeB_2026-10-15.md`

@@ -39,6 +39,7 @@ REQUIRED_EVIDENCE_FILES = (
     "53_Verified_Reference_Metadata_Register_SchemeB_2026-10-15.md",
     "53_Verified_Reference_Metadata_Register_SchemeB_2026-10-15.csv",
     "54_Vancouver_Citation_Order_Map_SchemeB_2026-10-15.md",
+    "55_MolPsychiatry_Display_Package_Audit_SchemeB_2026-10-15.md",
 )
 FORBIDDEN_IDENTIFIERS = (
     *forbidden_identifiers(),
