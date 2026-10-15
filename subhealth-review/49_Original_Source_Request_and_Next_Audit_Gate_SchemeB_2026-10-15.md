@@ -4,16 +4,18 @@
 
 This file records exactly what, if anything, is still needed from the user before the source-audited narrative manuscript can be expanded further. It is a request list, not an evidence source. No citation is promoted from this file unless its article identity is independently matched.
 
-## One high-priority original-text request
+**Status update:** the previously requested telomere original text was supplied as `alzain2017.pdf` on 2026-10-15 and has now been locally audited. The request below is therefore fulfilled.
+
+## Previously requested original text — received and audited
 
 ### PMID 28617662 — telomere bridge
 
 - **Exact title:** *Telomere Length and Accelerated Biological Aging in the China Suboptimal Health Cohort: A Case-Control Study*
 - **PubMed:** [28617662](https://pubmed.ncbi.nlm.nih.gov/28617662/)
 - **DOI:** [10.1089/omi.2017.0050](https://doi.org/10.1089/omi.2017.0050)
-- **What to provide if available:** publisher PDF, accepted manuscript or repository full text. A PDF is preferred; a legible full-text copy is acceptable.
-- **Why it matters:** the current record is identity- and abstract-verified, and the manuscript uses it only as a cellular-ageing/replicative-stress bridge. The original text would allow page/table-level audit of recruitment, SHSQ-25 definition, qPCR telomere method, matching, covariates and the reported quartile estimates.
-- **Current safety rule:** until the original text is supplied, no additional telomere details beyond the verified abstract will be added, and the study will not be pooled with cortisol or treated as mitochondrial-dynamics evidence.
+- **Supplied PDF audit:** `alzain2017.pdf`; 7 pages; SHA-256 `a6a33752ae043e2a9870cf7c55c7b4e909c532b31724c219d14da59cbb191bfe`.
+- **Audit result:** title/DOI on PDF p. 1; study design, SHSQ-25 score threshold and qPCR method on pp. 2–3; Table 1 on p. 4; adjusted telomere-quartile estimates and Table 3 on p. 5; limitations/conclusion on p. 6.
+- **Current safety rule:** the paper can now support page-located cellular-ageing/replicative-stress narrative claims. It remains separate from cortisol, is not a mitochondrial-dynamics study and is not eligible for a primary pooled estimate.
 
 ## Optional, not required for current manuscript claims
 
@@ -52,6 +54,6 @@ The following records are intentionally excluded or quarantined and should not b
 
 No working DOI placeholders from the earlier request lists should be treated as candidate article identities.
 
-## Next audit gate after a new PDF arrives
+## Next audit gate
 
-If the telomere source is supplied, the next step is a local page/hash audit followed by a narrow update to the molecular-bridge section and citation CSV. It will not reopen the direct cortisol Meta. If no new PDF is supplied, the manuscript can still proceed using the current abstract-level, online-verified telomere record with the existing limitation statement.
+The telomere source audit is complete. The next step is a narrow manuscript update using the page-located RTL results and limitations recorded above; this does not reopen the direct cortisol Meta. No further user upload is required for the current 19-anchor narrative evidence set. Any future paper should be supplied with an exact title plus PMID/PubMed URL and DOI/DOI URL, or remain pending until those identifiers are independently matched.

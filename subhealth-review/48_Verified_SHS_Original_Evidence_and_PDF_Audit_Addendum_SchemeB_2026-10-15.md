@@ -5,7 +5,7 @@
 This addendum records two linked updates:
 
 1. four user-supplied SHS context/multi-omics PDFs were audited locally for exact identity, page count, SHA-256 and abstract/table-level findings; and
-2. two additional human SHSQ-25 molecular/oxidative records were independently verified online from PubMed/PMC metadata and abstracts, but were not presented as local PDF-audited records because their PDFs were not supplied in this batch.
+2. two additional human SHSQ-25 molecular/oxidative records were independently verified from PubMed/PMC metadata and abstracts, with the telomere record subsequently receiving a local supplied-PDF audit documented below.
 
 These records are not pooled with the direct SHS–cortisol estimates. They are assigned to context, molecular bridge or pregnancy-specific oxidative/vascular bridge roles. None demonstrates mitochondrial dynamics mediation, cGAS–STING activation or NLRP3 activation in SHSQ-25-defined participants.
 
@@ -40,7 +40,7 @@ The supplied PDF abstract (PDF p. 1) describes a cross-sectional study of 217 Gh
 
 The supplied PDF abstract (PDF p. 1) describes 368 Australian participants: 203 unpaid carers and 165 general-population controls. SHS prevalence was 43.0% (98/203) in carers versus 12.7% (21/165) in controls (`p < 0.001`); the adjusted association was aOR 6.400 (95% CI 3.751–10.919). Participant characteristics are in Table 2 (PDF pp. 6–7), and SHSQ-25/DASS-21 analyses are reported in Tables 3–5 (PDF pp. 8–11). This is psychosocial risk-stratification context, not cortisol, inflammatory or mitochondrial mediation.
 
-## B. Additional online-verified human molecular/oxidative records
+## B. Human molecular/oxidative records: online identity and local audit status
 
 ### M1 — SHS and telomere length
 
@@ -48,9 +48,11 @@ The supplied PDF abstract (PDF p. 1) describes 368 Australian participants: 203 
 **PMID/PubMed:** [28617662](https://pubmed.ncbi.nlm.nih.gov/28617662/)
 **DOI:** [10.1089/omi.2017.0050](https://doi.org/10.1089/omi.2017.0050)
 
-The PubMed abstract reports 294 SHS cases and 294 ideal-health controls matched by age, sex and BMI. SHS was measured with SHSQ-25 and relative telomere length by quantitative PCR. Shorter telomere length was reported in SHS; adjusted odds ratios for the first, second and third telomere-length quartiles versus the longest quartile were 3.81 (95% CI 2.21–6.56), 2.84 (1.65–4.90) and 1.71 (1.00–2.94), respectively, and SHS score correlated negatively with relative telomere length (`r = −0.218`).
+**Supplied PDF audit:** `alzain2017.pdf`; 7 pages; SHA-256 `a6a33752ae043e2a9870cf7c55c7b4e909c532b31724c219d14da59cbb191bfe`. Title/abstract and DOI are on PDF p. 1; study design, SHSQ-25 definition and qPCR method are on PDF pp. 2–3; Table 1 is on PDF p. 4; adjusted telomere-quartile models and Table 3 are on PDF p. 5; limitations and conclusion are on PDF p. 6.
 
-**Locked role:** direct molecular bridge for cellular ageing/replicative stress. It does not measure Drp1, MFN2, OPA1, PINK1/Parkin, mtDNA, cGAS–STING, NLRP3, CRP or IL-6, and it is not evidence of mitochondrial-dynamics mediation. Online-verified only until the original PDF is supplied.
+The supplied PDF reports 294 SHS cases and 294 ideal-health controls matched by age, sex and BMI. SHS was defined as an SHSQ-25 score ≥35 and ideal health as <35. The study is a retrospective case–control analysis nested in the baseline survey of the prospective COACS; relative telomere length was measured by qPCR as a telomere-product/single-copy-gene ratio. Table 1 reports lower median RTL in SHS than ideal health (0.86 [0.71–1.00] vs 0.98 [0.82–1.13], `p<0.001`) and a negative SHS-score/RTL correlation (`r = −0.218`, `p<0.05`). In the fully adjusted food-consumption model, the first, second and third RTL quartiles versus the longest quartile had ORs of 3.81 (95% CI 2.21–6.56), 2.84 (1.65–4.90) and 1.71 (1.00–2.94), respectively (Table 2, PDF p. 5). The paper’s limitations include cross-sectional/retrospective temporal ambiguity, lack of genetic contribution data and restriction to a Chinese population.
+
+**Locked role:** direct SHSQ-25 molecular bridge for cellular ageing/replicative stress. It does not measure Drp1, MFN2, OPA1, PINK1/Parkin, mtDNA, cGAS–STING, NLRP3, CRP or IL-6, and it is not evidence of mitochondrial-dynamics mediation.
 
 ### M2 — SHS, oxidative stress and placental/angiogenic markers in pregnancy
 

@@ -21,7 +21,7 @@ The machine-readable anchor table is `verified_reference_anchors_narrative_manus
 
 ## Verified anchor inventory
 
-The 19 anchors are divided into one measurement-context source, three direct cortisol records, two low-grade-inflammation/HRQoL bridge records, one inflammation/fatigue bridge record, six mechanistic transfer sources, four supplied-PDF-audited SHS context/multi-omics records and two online-verified SHSQ-25 molecular/oxidative bridge records. The context records remain non-primary outcomes, and the two molecular/oxidative records are not pooled with cortisol. Each row in the CSV contains the exact title, PMID, PubMed URL, DOI and DOI URL.
+The 19 anchors are divided into one measurement-context source, three direct cortisol records, two low-grade-inflammation/HRQoL bridge records, one inflammation/fatigue bridge record, six mechanistic transfer sources, four supplied-PDF-audited SHS context/multi-omics records and two verified SHSQ-25 molecular/oxidative bridge records, one of which now has a local PDF audit. The context records remain non-primary outcomes, and the two molecular/oxidative records are not pooled with cortisol. Each row in the CSV contains the exact title, PMID, PubMed URL, DOI and DOI URL.
 
 ### Measurement context
 
@@ -50,7 +50,7 @@ The 19 anchors are divided into one measurement-context source, three direct cor
 
 ### Verified SHSQ-25 molecular and oxidative bridge anchors
 
-- *Telomere Length and Accelerated Biological Aging in the China Suboptimal Health Cohort: A Case-Control Study* — PMID [28617662](https://pubmed.ncbi.nlm.nih.gov/28617662/); DOI [10.1089/omi.2017.0050](https://doi.org/10.1089/omi.2017.0050). Online-verified original human SHSQ-25/telomere study; not locally PDF-audited in this batch.
+- *Telomere Length and Accelerated Biological Aging in the China Suboptimal Health Cohort: A Case-Control Study* — PMID [28617662](https://pubmed.ncbi.nlm.nih.gov/28617662/); DOI [10.1089/omi.2017.0050](https://doi.org/10.1089/omi.2017.0050). Original human SHSQ-25/telomere study; PubMed identity and supplied PDF locally audited, with file/hash/page locators recorded in file 48.
 - *Placental lesions and differential expression of pro-and anti-angiogenic growth mediators and oxidative DNA damage marker in placentae of Ghanaian suboptimal and optimal health status pregnant women who later developed preeclampsia* — PMID [35312727](https://pubmed.ncbi.nlm.nih.gov/35312727/); DOI [10.1371/journal.pone.0265717](https://doi.org/10.1371/journal.pone.0265717). Online/PMC-verified pregnancy-specific SHS oxidative/vascular study; not locally PDF-audited in this batch.
 
 ### Verified SHS context and multi-omics anchors
