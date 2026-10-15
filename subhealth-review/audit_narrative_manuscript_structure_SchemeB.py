@@ -41,6 +41,7 @@ REQUIRED_EVIDENCE_FILES = (
     "54_Vancouver_Citation_Order_Map_SchemeB_2026-10-15.md",
     "55_MolPsychiatry_Display_Package_Audit_SchemeB_2026-10-15.md",
     "56_Submission_Metadata_and_Declaration_Placeholders_SchemeB_2026-10-15.md",
+    "57_Journal_Facing_Submission_Copy_SchemeB_2026-10-15.md",
 )
 FORBIDDEN_IDENTIFIERS = (
     *forbidden_identifiers(),

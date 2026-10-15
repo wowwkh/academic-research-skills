@@ -32,6 +32,7 @@ The journal page should be rechecked immediately before submission because journ
 | Abstract word count | **PASS** | 44 abstract: approximately 213 words under the 150–250-word range |
 | Main-text length | **WORKING PASS** | 44 main narrative is approximately 4,600 words excluding the evidence-file navigation block; assess final word count after numbered references, tables and legends are formatted |
 | Display-item budget | **PROVISIONAL PASS** | File 55 retains three safeguarded main-text tables and excludes exploratory legacy displays; no final figure is currently included |
+| Journal-facing clean copy | **PROVISIONAL PASS; user review pending** | File 57 separates the clean copy from the audit draft, removes PMID/internal navigation, retains DOI-based Vancouver references, three tables and `*` decision placeholders |
 | Vancouver numbered citations | **PROVISIONAL PASS; final journal cleanup pending** | 44 now carries 19 first-citation numeric markers and a working Vancouver list; `audit_vancouver_citation_order_SchemeB.py` and file 54 confirm order/tuple preservation |
 | Full reference metadata | **PROVISIONAL PASS; final freeze pending** | File 53 contains 19 journal-formatted candidate entries and a machine-readable register; `audit_reference_metadata_SchemeB.py` confirms exact title/PMID/DOI tuple preservation and populated journal fields |
 | Supplementary-information statement | **PLACEHOLDER SAVED; author decision required** | File 56 records `*`; add a journal statement only if supplementary files are actually submitted |
@@ -44,4 +45,4 @@ The source-audited title/PMID/DOI anchors are retained during the evidence phase
 
 ## Current decision
 
-The manuscript has passed the abstract-format gate, provisional metadata gate, provisional citation-order gate and provisional display-package gate but has **not** passed the final submission-format gate. Author/declaration and figure/supplement fields are now saved as `*` placeholders in file 56. The remaining presentation work is final journal cleanup and replacement of those placeholders with author-confirmed information; none may change evidence roles or add unsupported claims.
+The manuscript has passed the abstract-format gate, provisional metadata gate, provisional citation-order gate, provisional display-package gate and clean-copy audit but has **not** passed the final submission-format gate. Author/declaration and figure/supplement fields remain saved as `*` placeholders in file 56 and the clean copy. The remaining presentation work is user review, final journal cleanup and replacement of those placeholders with author-confirmed information; none may change evidence roles or add unsupported claims.

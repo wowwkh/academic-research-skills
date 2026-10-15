@@ -43,6 +43,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 | Vancouver citation-order map | 54_Vancouver_Citation_Order_Map_SchemeB_2026-10-15 | — | 19/19 first-citation markers 与 19/19 working reference entries 顺序一致；最终 journal cleanup 尚未完成 |
 | Mol Psychiatry display package | 55_MolPsychiatry_Display_Package_Audit_SchemeB_2026-10-15 | — | 保留 3 个有 caption guardrail 的 main-text tables；排除历史 exploratory forest plots、PRISMA 和 legacy GRADE displays；当前无 final figure |
 | submission metadata placeholders | 56_Submission_Metadata_and_Declaration_Placeholders_SchemeB_2026-10-15 | — | author、affiliation、ORCID、correspondence、funding、COI、contribution、supplement 和 display fields 均以 `*` 留空；未编造信息 |
+| journal-facing clean copy | 57_Journal_Facing_Submission_Copy_SchemeB_2026-10-15 | — | 与 44 号 audit working draft 分离；移除 PMID/内部导航；保留 DOI Vancouver references、3 张 tables 和 `*` placeholders；等待用户核查 |
 
 ---
 
@@ -112,6 +113,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 - [x] 建立 53 号 19-anchor journal-formatted metadata register，并通过 title/PMID/DOI tuple-preservation audit；Vancouver citation-order map 已完成并通过 54 号 audit
 - [x] 完成 55 号 display-package audit：保留 3 个 main-text tables，排除 legacy exploratory displays，未把任何 final figure 或 pooled estimate 加入投稿包
 - [x] 建立 56 号 submission metadata/declaration placeholder gate：所有需作者确认的字段以 `*` 留空，并保留自动 audit
+- [x] 生成 57 号 clean journal-facing copy：不修改 44 号 audit working draft；clean copy 移除 PMID/内部导航，保留 DOI references、3 张 tables 和 `*` decision placeholders
 - [x] 建立 mitochondrial dynamics / immunometabolism / cGAS–STING / NLRP3 的 mechanistic transfer matrix，明确非 SHS direct evidence
 - [x] 根据三篇原始 PDF 完成公开证据范围内的队列对账；不要求通讯作者回复、公司名单或参与者级资料，无法公开判定的独立性按 unresolved overlap risk 处理
 - [x] 审计用户列出的 9+3 PubMed candidate set；将 exact identity、证据角色、scope exclusion 和 pending identity tuple 记录在 48 号 addendum
