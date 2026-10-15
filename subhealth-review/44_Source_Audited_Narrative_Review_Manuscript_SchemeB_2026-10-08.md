@@ -18,7 +18,7 @@ Sixteen supplied PDFs were audited in the current evidence package—the origina
 
 ### Results
 
-Three source-audited reports contained direct SHS-related cortisol values. Derived mean differences were 42.98, 10.81 and 44.00 ng/mL, respectively, but the reports used a sample-median SHS score of 44, a sample-median score of 35 and a latent-class definition. They also differed in serum versus plasma measurement and raw versus covariate-adjusted estimates. The 2018 latent-class report used cortisol as a manifest variable in class assignment. Cohort independence could not be established because the reports used a potentially overlapping Xuanwu Hospital/Capital Medical University occupational and health-examination infrastructure. No report therefore met all criteria for a primary pooled direct-cortisol estimate. A transparent three-report random-effects calculation was retained as exploratory only (MD 32.60 ng/mL, 95% CI 11.64–53.56; I²=99.3%). Bridge records were not combined with direct cortisol. Twenty-four historical Meta rows without a verified exact identity were quarantined. Certainty for the direct-cortisol evidence was Very low.
+Three source-audited reports contained direct SHS-related cortisol values. Derived mean differences were 42.98, 10.81 and 44.00 ng/mL, respectively, but the reports used a sample-median SHS score of 44, a sample-median score of 35 and a latent-class definition. They also differed in serum versus plasma measurement and raw versus covariate-adjusted estimates. The 2018 latent-class report used cortisol as a manifest variable in class assignment. Cohort independence could not be established because the reports used a potentially overlapping Xuanwu Hospital/Capital Medical University occupational and health-examination infrastructure. No report therefore met all criteria for a primary pooled direct-cortisol estimate. A transparent three-report random-effects calculation was retained as exploratory only (MD 32.60 ng/mL, 95% CI 11.64–53.56; I²=99.3%). Outside the cortisol set, one locally audited telomere study supplied a cellular-ageing bridge, one pregnancy-specific study supplied an oxidative/vascular bridge, and four locally audited SHS context/multi-omics records expanded the phenotype map. Bridge records were not combined with direct cortisol. Twenty-four historical Meta rows without a verified exact identity were quarantined. Certainty for the direct-cortisol evidence was Very low.
 
 ### Conclusions
 
@@ -142,6 +142,23 @@ Two additional human records strengthen the molecular bridge while remaining out
 A second online/PMC-verified record, *Placental lesions and differential expression of pro-and anti-angiogenic growth mediators and oxidative DNA damage marker in placentae of Ghanaian suboptimal and optimal health status pregnant women who later developed preeclampsia* (PMID [35312727](https://pubmed.ncbi.nlm.nih.gov/35312727/); DOI [10.1371/journal.pone.0265717](https://doi.org/10.1371/journal.pone.0265717)), originates from 593 normotensive singleton pregnancies assessed with SHSQ-25 at 10–20 weeks. It reports pregnancy-specific associations involving oxidative DNA damage, angiogenic mediators and placental pathology among women who later developed preeclampsia. This evidence is retained as a pregnancy-specific oxidative/vascular bridge and is not generalized to non-pregnant SHS or interpreted as mitochondrial-dynamics mediation.
 
 Together, these records permit a more precise translational bridge—SHS phenotype, stress-axis/receptor alterations, cellular-ageing markers and oxidative/vascular signals—while the human evidence still does not directly measure Drp1, MFN2, OPA1, PINK1/Parkin, mtDNA release, cGAS–STING or NLRP3 in SHSQ-25-defined participants.
+
+### 3.7 Evidence hierarchy and permissible inference
+
+The 19 verified anchors are article-level records, not 19 interchangeable biomarker studies. Their roles and permissible inferences are therefore kept separate:
+
+| Evidence stratum | Article-level records | Source/audit status | Permissible inference | Not permissible |
+|---|---:|---|---|---|
+| SHSQ-25 measurement context | 1 | Exact title/PMID/DOI verified; source role recorded in file 45 | Defines the questionnaire construct and cutoff context | Biomarker effect or mechanistic conclusion |
+| Direct SHS–cortisol | 3 | Supplied PDFs locally audited; locked map in file 42 | Study-level cortisol observations | Primary pooled cortisol estimate; causal HPA claim |
+| Direct SHSQ-25 molecular bridge | 1 | `alzain2017.pdf` locally audited; file 48 records pages/hash/tables | Association of SHS with relative telomere length/cellular-ageing signal | Mitochondrial-dynamics mediation or cortisol pooling |
+| Pregnancy-specific oxidative/vascular bridge | 1 | PubMed/PMC identity and full text verified online | Pregnancy-specific oxidative, placental and angiogenic context | Generalization to non-pregnant adults |
+| SHS context/multi-omics | 4 | Supplied PDFs locally audited; file 48 records pages/hash/tables | Vascular, glycomic, symptom-network and psychosocial context | Temporal/causal network inference or mitochondrial mechanism |
+| Non-SHS low-grade-inflammation bridges | 3 | Article identities and outcome-specific source records verified | Separate HRQoL/fatigue bridge narrative | Treating CRP/IL-6 results as direct SHSQ-25 evidence |
+| Mechanistic-transfer evidence | 6 | Exact identities verified; transfer matrix in file 46 | Biological plausibility and testable hypotheses | Claim that the pathway is demonstrated in SHS |
+| **Total** | **19** | **Citation audit 19/19 PASS** | **Layered narrative synthesis** | **No primary pooled direct-cortisol result** |
+
+This hierarchy is the central safeguard against evidence inflation: adding a verified context or transfer record increases explanatory coverage, but it does not change the direct-cortisol pooling decision.
 
 ## 4. Discussion
 

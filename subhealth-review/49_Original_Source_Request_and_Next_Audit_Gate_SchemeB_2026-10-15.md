@@ -56,4 +56,4 @@ No working DOI placeholders from the earlier request lists should be treated as 
 
 ## Next audit gate
 
-The telomere source audit is complete. The next step is a narrow manuscript update using the page-located RTL results and limitations recorded above; this does not reopen the direct cortisol Meta. No further user upload is required for the current 19-anchor narrative evidence set. Any future paper should be supplied with an exact title plus PMID/PubMed URL and DOI/DOI URL, or remain pending until those identifiers are independently matched.
+The telomere source audit and its narrow manuscript update are complete. The next gate is expansion of the evidence-safe manuscript into a fuller submission draft; this does not reopen the direct cortisol Meta. No further user upload is required for the current 19-anchor narrative evidence set. Any future paper should be supplied with an exact title plus PMID/PubMed URL and DOI/DOI URL, or remain pending until those identifiers are independently matched.
