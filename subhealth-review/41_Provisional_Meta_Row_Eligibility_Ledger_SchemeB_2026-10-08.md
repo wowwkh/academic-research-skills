@@ -58,6 +58,8 @@ The complete row-level decisions, including the legacy outcome, historical effec
 
 - `meta_analysis_eligibility_ledger_SchemeB_2026-10-08.csv`
 
+The reproducible quarantine gate is checked by `audit_legacy_meta_quarantine_SchemeB.py`: it currently passes with 31 ledger rows, 24 unverified rows quarantined and zero primary pooled legacy rows.
+
 The historical 31-row file is intentionally preserved. It must not be used as the final quantitative input without applying this ledger and the cohort/estimand decision in `40_Cohort_Reconciliation_Yan_Direct_Cortisol_SchemeB_2026-10-08.md`.
 
 ## Primary analysis consequence

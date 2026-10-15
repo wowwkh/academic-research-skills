@@ -107,6 +107,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 - [x] 在 49 号文件中记录并关闭 PMID 28617662 telomere 原文请求；当前 19-anchor set 不需重复上传
 - [ ] 将 narrative-only working manuscript 继续扩展为完整投稿稿，并对后续新增文献逐条完成 exact-title/PMID/DOI citation compliance
 - [x] 已将 24 个无 exact identity 的 rows 及 legacy NLR/HRV/OXPHOS/fatigue/SF-36 outcome-mismatch rows 从 primary Meta quarantine；没有据此生成最终图表
+- [x] 运行 `audit_legacy_meta_quarantine_SchemeB.py`：31 rows、24 unverified rows quarantine、0 primary pooled legacy rows
 - [ ] 只有在每个保留 row 都完成 exact title/PMID/DOI/source-table verification 后，才考虑重新生成最终图表与正文数字
 
 当前不应投稿；投稿级格式包必须等待最终证据锁定、完整检索/筛选记录和正文 citation audit 完成。
