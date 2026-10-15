@@ -1,0 +1,8 @@
+Outcome,k,Metric,Pooled_effect,Lower_95CI,Upper_95CI,I2_percent,tau2_analysis_scale,Q,df,Status
+Cortisol_ng_ml,4,MD,35.859167,28.809047,42.909287,87.031,44.20008593,23.132847,3,provisional; do not cite as final
+NLR,6,MD,0.505964,0.458336,0.553592,0.000,0.00000000,1.766222,5,provisional; do not cite as final
+HRV_SDNN_ms,4,MD,-24.955920,-28.150484,-21.761356,0.000,0.00000000,0.169708,3,provisional; do not cite as final
+HRV_RMSSD_ms,3,MD,-10.334612,-12.095920,-8.573303,0.000,0.00000000,0.275713,2,provisional; do not cite as final
+Fatigue_OR_joint,6,logOR,1.593131,1.464666,1.732862,0.000,0.00000000,2.889090,5,provisional; do not cite as final
+SF36_Vitality,5,MD,-8.288333,-9.332600,-7.244066,39.366,0.54685557,6.596930,4,provisional; do not cite as final
+OXPHOS_basal,3,SMD,-1.202749,-1.457904,-0.947593,0.000,0.00000000,0.653461,2,provisional; do not cite as final
