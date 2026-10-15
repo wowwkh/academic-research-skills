@@ -197,6 +197,24 @@ Limitations are substantial. The current phase is not a completed four-database 
 
 The current source-verified evidence supports narrative, not pooled, direct SHS-cortisol synthesis. The direct reports use non-equivalent SHS classifications, measurement protocols and analytic estimands, and their cohort independence remains unresolved. The 2018 LCA study should be interpreted as diagnostic evidence because cortisol contributes to class assignment. Low-grade-inflammation/HRQoL and inflammation/fatigue studies are useful bridge evidence but must remain separate. SLIM is retained as a hypothesis-generating framework for prospective multi-omic and mitochondrial-dynamics studies, not as a demonstrated causal model. A primary Meta estimate should not be reported until the cohort and estimand gates are resolved.
 
+## 6. Reporting and availability statements
+
+### Data availability
+
+This narrative review uses public bibliographic records, publicly available full text where accessible, and user-supplied article PDFs. The project does not hold participant-level data, participant identifiers or private author communications. Source-located values, derived calculations and eligibility decisions are preserved in the audit CSVs and Markdown files listed below. The supplied PDF bytes are not redistributed as a new public data set; their filenames, page counts and hashes are recorded for provenance.
+
+### Code availability
+
+The citation/evidence-safety audit is implemented in `audit_narrative_manuscript_citations_SchemeB.py`. Supporting analysis and figure scripts are retained in the `subhealth-review/` directory. The scripts do not create new participant-level data and do not replace independent bibliographic verification.
+
+### Ethics and consent
+
+No new human participants were recruited and no participant-level record linkage was performed for this narrative evidence audit. The review does not request employer lists, participant identifiers or private author responses. Any journal-specific ethics wording should be checked against the target journal’s instructions before submission.
+
+### Funding, conflicts of interest and authorship
+
+Funding, conflict-of-interest, author-contribution and correspondence statements are not inferred from article PDFs or bibliographic records. They require author-supplied confirmation before a submission package is prepared. No such statement should be fabricated from the evidence audit.
+
 ## Evidence files
 
 - `38_PDF_Byte_Extraction_Audit_SchemeB_2026-10-08.md`
