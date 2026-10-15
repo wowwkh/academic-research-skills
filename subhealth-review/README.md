@@ -17,7 +17,9 @@ This directory contains the current `34`–`57` audit and submission milestones,
    `FINAL_SUBMISSION_READINESS_AUDIT_SchemeB_2026-10-15.md`
 5. **Title-page and cover-letter templates**
    `TITLE_PAGE_TEMPLATE_SchemeB_2026-10-15.md` and `COVER_LETTER_TEMPLATE_SchemeB_2026-10-15.md`
-6. **48–49 — latest SHS original-evidence audit and next-audit gate**
+6. **Author-review submission package (Word plus Markdown previews)**
+   `submission-package-2026-10-15/`
+7. **48–49 — latest SHS original-evidence audit and next-audit gate**
 
 The 44 manuscript is the audit source. The 57 copy is a separate journal-facing derivative; do not merge its clean presentation back into 44 or treat it as a replacement for source-audit notes.
 

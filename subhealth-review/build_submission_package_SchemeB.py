@@ -371,7 +371,10 @@ def add_cover_letter() -> None:
     add_paragraph(doc, "Suggested or excluded reviewers, if requested: *")
     doc.add_paragraph()
     add_paragraph(doc, "Sincerely,")
-    add_paragraph(doc, "*\nCorresponding author: *\nAffiliation: *\nEmail: *")
+    add_paragraph(doc, "*")
+    add_paragraph(doc, "Corresponding author: *")
+    add_paragraph(doc, "Affiliation: *")
+    add_paragraph(doc, "Email: *")
     add_paragraph(doc, "Data availability, code availability and ethics/consent statements are intentionally not included in this author-review draft.", italic=True, size=9)
     doc.save(OUT / "Cover_Letter_SchemeB_Author_Review.docx")
 

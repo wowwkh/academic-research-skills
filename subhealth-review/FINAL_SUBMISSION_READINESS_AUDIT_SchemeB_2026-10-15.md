@@ -79,7 +79,8 @@ The following author-review files have now been generated under `submission-pack
 - independent title-page Word template;
 - independent cover-letter Word template;
 - separate Word copy of Tables 1–3; and
-- separate PNG/PDF copies of Figure 1.
+- separate PNG/PDF copies of Figure 1; and
+- Markdown preview copies of every generated DOCX, produced by `convert_submission_package_to_markdown.py`.
 
 These are review artifacts rather than final upload files because title-page fields, author declarations, the figure decision and final proofing remain open.
 

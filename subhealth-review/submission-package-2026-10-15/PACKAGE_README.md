@@ -4,10 +4,10 @@ This package is prepared for strict author review. It is not yet the final uploa
 
 ## Files
 
-- `Main_Manuscript_SchemeB_Author_Review.docx`: body, abstract, three tables, references and one evidence-bounded conceptual figure.
-- `Title_Page_SchemeB_Author_Review.docx`: independent title-page template with personal/funding fields left as `*`.
-- `Cover_Letter_SchemeB_Author_Review.docx`: independent cover-letter template with author-controlled statements left as `*`.
-- `Tables_1_to_3_SchemeB_Author_Review.docx`: separate review copy of the three main-text tables.
+- `Main_Manuscript_SchemeB_Author_Review.docx` and `.md`: body, abstract, three tables, references and one evidence-bounded conceptual figure.
+- `Title_Page_SchemeB_Author_Review.docx` and `.md`: independent title-page template with personal/funding fields left as `*`.
+- `Cover_Letter_SchemeB_Author_Review.docx` and `.md`: independent cover-letter template with author-controlled statements left as `*`.
+- `Tables_1_to_3_SchemeB_Author_Review.docx` and `.md`: separate review copy of the three main-text tables.
 - `Figure_1_SLIM_Conceptual_Model_SchemeB.png` and `.pdf`: one conceptual figure, explicitly marked as a draft for author review.
 
 ## Current package decision
