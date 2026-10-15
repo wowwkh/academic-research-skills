@@ -174,6 +174,19 @@ The SLIM model places mitochondrial dynamics upstream of a proposed reversible c
 
 A high-quality validation study would recruit a clearly defined SHSQ-25 cohort, record symptom duration, exclude organic disease, and sample the same participants longitudinally. It should measure cortisol with a prespecified time protocol, CRP/IL-6 and routine cell counts, autonomic measures, PBMC respiration and glycolytic flux, targeted lactate/succinate, mitochondrial-DNA release and phosphorylation-level mitochondrial-dynamics markers. The primary analysis should distinguish temporal prediction from cross-sectional association and should pre-register how repeated measures and cohort clustering are handled.
 
+The following design matrix is a prospective recommendation, not an extraction from the current evidence:
+
+| Validation domain | Minimum reporting requirement | Guardrail against over-interpretation |
+|---|---|---|
+| Phenotype definition | Preserve the continuous SHS score and item/domain scores; report the cutoff, symptom duration and diagnostic exclusions | Do not define SHS with a biomarker that is subsequently analysed as its outcome |
+| Cohort provenance | Record recruitment site, calendar window, sampling frame and a non-identifying cohort identifier | Reconcile repeated publications before any pooled analysis; do not infer independence from author lists alone |
+| Stress-axis measurement | Prespecify cortisol matrix, clock time, fasting/waking interval, assay and replicate/QC procedures | Do not combine serum, plasma, adjusted and raw contrasts without an estimand plan |
+| Inflammation and blood indices | Collect CRP, IL-6 and routine cell-count indices with assay limits and batch information | Treat these as candidate correlates until directly measured in the SHSQ-25 cohort |
+| Autonomic physiology | Define HRV metric, recording duration, preprocessing, artefact handling, posture and medication exclusions | Do not call a result “HRV” without a prespecified metric and acquisition window |
+| Cellular bioenergetics | If PBMC assays are used, report cell composition, normalization, instrument/QC procedures and batch | Do not infer whole-body OXPHOS or mitochondrial dysfunction from an unnormalised ex vivo signal |
+| Mitochondrial dynamics and innate sensing | Treat Drp1/MFN2/OPA1/PINK1/Parkin, mtDNA, cGAS–STING and NLRP3 as prospectively specified exploratory endpoints | These endpoints are not directly demonstrated in the current SHSQ-25 evidence set |
+| Analysis and replication | Pre-register primary estimands, repeated-measure models, missing-data rules and an external replication cohort | Separate prediction, association and mediation; do not claim causality from one cross-sectional wave |
+
 ### 4.3 Strengths and limitations of this evidence phase
 
 Strengths include byte-level PDF audit, exact bibliographic verification, page/table locators, transparent derived calculations, explicit cohort-overlap adjudication and separation of direct from bridge evidence. The audit also prevents unverified historical rows from being presented as established Meta evidence.
