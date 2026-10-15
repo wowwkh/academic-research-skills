@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 from evidence_scope_policy_SchemeB import forbidden_identifiers
@@ -26,6 +27,7 @@ REQUIRED_LOCKS = (
     "not an absolute absence claim",
     "primary pooled direct-cortisol estimate",
     "Funding, conflict-of-interest, author-contribution and correspondence statements are not inferred",
+    "The abstract is unstructured and within the journal’s 150–250-word review range",
 )
 REQUIRED_EVIDENCE_FILES = (
     "42_Primary_Synthesis_Lock_and_Narrative_Evidence_Map_SchemeB_2026-10-08.md",
@@ -33,6 +35,7 @@ REQUIRED_EVIDENCE_FILES = (
     "49_Original_Source_Request_and_Next_Audit_Gate_SchemeB_2026-10-15.md",
     "50_Verified_Reference_Register_SchemeB_2026-10-15.md",
     "51_Claim_to_Source_Traceability_Matrix_SchemeB_2026-10-15.md",
+    "52_MolPsychiatry_Review_Format_Gate_SchemeB_2026-10-15.md",
 )
 FORBIDDEN_IDENTIFIERS = (
     *forbidden_identifiers(),
@@ -40,6 +43,14 @@ FORBIDDEN_IDENTIFIERS = (
     "110 studies included",
     "Ready for Final Submission",
 )
+ABSTRACT_FORBIDDEN_HEADINGS = (
+    "### Background",
+    "### Methods",
+    "### Results",
+    "### Conclusions",
+)
+ABSTRACT_MIN_WORDS = 150
+ABSTRACT_MAX_WORDS = 250
 
 
 def main() -> None:
@@ -50,9 +61,25 @@ def main() -> None:
     for phrase in FORBIDDEN_IDENTIFIERS:
         if phrase in text:
             raise SystemExit(f"Forbidden provisional or quarantined phrase present: {phrase}")
+
+    try:
+        abstract = text.split("## Abstract", 1)[1].split("## 1. Introduction", 1)[0]
+    except IndexError as exc:
+        raise SystemExit("Unable to isolate the manuscript abstract") from exc
+    for heading in ABSTRACT_FORBIDDEN_HEADINGS:
+        if heading in abstract:
+            raise SystemExit(f"Structured abstract heading remains in Review Article abstract: {heading}")
+    abstract_words = re.findall(r"\b[\w’'-]+\b", abstract)
+    if not ABSTRACT_MIN_WORDS <= len(abstract_words) <= ABSTRACT_MAX_WORDS:
+        raise SystemExit(
+            "Review Article abstract is outside the 150–250-word range: "
+            f"{len(abstract_words)} words"
+        )
+
     print(
-        "Manuscript structure audit PASS: required sections, evidence locks and "
-        "reporting gates present; provisional/quarantined phrases absent"
+        "Manuscript structure audit PASS: required sections, evidence locks, "
+        "Mol Psychiatry abstract gate and reporting gates present; "
+        "provisional/quarantined phrases absent"
     )
 
 

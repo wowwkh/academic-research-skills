@@ -4,27 +4,11 @@
 
 **Manuscript status:** evidence-safe narrative-only working version. This version supersedes neither the historical provisional manuscript nor the exploratory forest plot. It is intended to prevent unsupported quantitative claims from entering a submission while cohort and full-review verification remain incomplete.
 
-**Target format:** systematic-review-style narrative manuscript with a clearly separated evidence audit, bridge evidence and proposed SLIM model. No final primary Meta estimate is reported.
+**Target format:** Mol Psychiatry Review Article working version with a clearly separated evidence audit, bridge evidence and proposed SLIM model. The abstract is unstructured and within the journal’s 150–250-word review range; Vancouver numbered references remain a final presentation gate. No final primary Meta estimate is reported.
 
 ## Abstract
 
-### Background
-
-Suboptimal health status is a pre-diagnostic state commonly assessed with the Suboptimal Health Status Questionnaire-25 (SHSQ-25). Reports linking this construct to cortisol and low-grade inflammation use different cutoffs, biological matrices and analytic designs. We assessed whether the currently source-verified evidence supports a primary pooled estimate and mapped the evidence boundary for an immune-metabolic continuum model.
-
-### Methods
-
-Sixteen supplied PDFs were audited in the current evidence package—the original 11 source PDFs, four additional SHS context/multi-omics PDFs and the newly supplied telomere PDF—for exact article identity, SHA-256 hash, page count, table locator and quantitative extraction. A primary quantitative synthesis required a verified source, a compatible SHS definition, an outcome estimand not incorporated into the exposure classification, and a reasonably independent study population. Direct cortisol reports were reconciled for recruitment frame, health-centre source, sampling time, matrix, assay and adjustment. Low-grade-inflammation/quality-of-life, inflammation/fatigue, vascular, glycomic, symptom-network, psychosocial and cellular-ageing records were retained as separate bridge/context evidence. Certainty was assessed using GRADE principles.
-
-### Results
-
-Three source-audited reports contained direct SHS-related cortisol values. Derived mean differences were 42.98, 10.81 and 44.00 ng/mL, respectively, but the reports used a sample-median SHS score of 44, a sample-median score of 35 and a latent-class definition. They also differed in serum versus plasma measurement and raw versus covariate-adjusted estimates. The 2018 latent-class report used cortisol as a manifest variable in class assignment. Cohort independence could not be established because the reports used a potentially overlapping Xuanwu Hospital/Capital Medical University occupational and health-examination infrastructure. No report therefore met all criteria for a primary pooled direct-cortisol estimate. A transparent three-report random-effects calculation was retained as exploratory only (MD 32.60 ng/mL, 95% CI 11.64–53.56; I²=99.3%). Outside the cortisol set, one locally audited telomere study supplied a cellular-ageing bridge, one pregnancy-specific study supplied an oxidative/vascular bridge, and four locally audited SHS context/multi-omics records expanded the phenotype map. Bridge records were not combined with direct cortisol. Twenty-four historical Meta rows without a verified exact identity were quarantined. Certainty for the direct-cortisol evidence was Very low.
-
-### Conclusions
-
-The source-audited literature is compatible with an association between SHS-related symptom status and altered cortisol, but it does not currently justify a primary pooled estimate or a causal claim. A proposed SLIM model—Suboptimal health, Low-grade inflammation and ImmunoMetabolic stress—should be treated as a testable framework rather than a demonstrated biological pathway. Future studies require cohort-level deduplication, harmonized cortisol protocols and prospective multi-omic validation.
-
-**Keywords:** suboptimal health; SHSQ-25; cortisol; low-grade inflammation; fatigue; health-related quality of life; immune metabolism; mitochondrial dynamics; narrative synthesis; SLIM
+Suboptimal health status (SHS) is a symptom-defined, pre-diagnostic state commonly assessed with the Suboptimal Health Status Questionnaire-25 (SHSQ-25), but reported biological correlates use non-equivalent thresholds and assays. Sixteen supplied PDFs were audited for exact identity, source tables, cohort provenance, assay context and estimands. Three reports contained direct SHS-related cortisol contrasts, but they used sample-median or latent-class definitions, serum or plasma, raw or adjusted estimates, and potentially overlapping Beijing occupational/health-examination frames. A transparent three-report calculation was retained as exploratory only (mean difference 32.60 ng/mL, 95% confidence interval 11.64–53.56; I²=99.3%); no report met all criteria for a primary pooled direct-cortisol estimate, and the direct-cortisol certainty was very low. One locally audited telomere study, one pregnancy-specific oxidative/vascular study and four SHS context/multi-omics records were retained as separate bridge strata. Low-grade-inflammation/quality-of-life and inflammation/fatigue records were also kept separate from direct SHS evidence. A proposed SLIM framework—Suboptimal health, Low-grade inflammation and ImmunoMetabolic stress—organizes testable hypotheses but does not demonstrate a causal pathway. Current evidence does not support any standalone SHS biomarker diagnostic test, and SHSQ-25 should not be presented as a molecular diagnosis. Future studies need harmonized cortisol protocols, cohort deduplication and prospective measurement of inflammatory, mitochondrial and innate-immune endpoints in SHSQ-25-defined human populations.
 
 ## 1. Introduction
 
@@ -237,3 +221,4 @@ SHS, suboptimal health status; SHSQ-25, Suboptimal Health Status Questionnaire-2
 - `49_Original_Source_Request_and_Next_Audit_Gate_SchemeB_2026-10-15.md`
 - `50_Verified_Reference_Register_SchemeB_2026-10-15.md`
 - `51_Claim_to_Source_Traceability_Matrix_SchemeB_2026-10-15.md`
+- `52_MolPsychiatry_Review_Format_Gate_SchemeB_2026-10-15.md`
