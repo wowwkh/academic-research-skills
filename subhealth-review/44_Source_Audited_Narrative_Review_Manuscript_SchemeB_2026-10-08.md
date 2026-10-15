@@ -223,6 +223,10 @@ No new human participants were recruited and no participant-level record linkage
 
 Funding, conflict-of-interest, author-contribution and correspondence statements are not inferred from article PDFs or bibliographic records. They require author-supplied confirmation before a submission package is prepared. No such statement should be fabricated from the evidence audit.
 
+### Abbreviations
+
+SHS, suboptimal health status; SHSQ-25, Suboptimal Health Status Questionnaire-25; HPA, hypothalamic–pituitary–adrenal; GR, glucocorticoid receptor; RTL, relative telomere length; HRQoL, health-related quality of life; HRV, heart-rate variability; OXPHOS, oxidative phosphorylation; mtDNA, mitochondrial DNA; cGAS–STING, cyclic GMP–AMP synthase–stimulator of interferon genes; NLRP3, NOD-like receptor family pyrin domain containing 3; SLIM, Suboptimal health–Low-grade inflammation–ImmunoMetabolic stress.
+
 ## Evidence files
 
 - `38_PDF_Byte_Extraction_Audit_SchemeB_2026-10-08.md`
