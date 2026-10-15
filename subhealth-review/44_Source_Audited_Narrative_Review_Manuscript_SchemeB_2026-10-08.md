@@ -205,3 +205,4 @@ The current source-verified evidence supports narrative, not pooled, direct SHS-
 - `42_Primary_Synthesis_Lock_and_Narrative_Evidence_Map_SchemeB_2026-10-08.md`
 - `locked_primary_synthesis_evidence_map_SchemeB_2026-10-08.csv`
 - `49_Original_Source_Request_and_Next_Audit_Gate_SchemeB_2026-10-15.md`
+- `50_Verified_Reference_Register_SchemeB_2026-10-15.md`

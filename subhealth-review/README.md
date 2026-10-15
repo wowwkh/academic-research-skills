@@ -36,6 +36,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 | SHS context/multi-omics addendum | 47_Verified_SHS_Context_Multiomics_Addendum_SchemeB | — | 4 条 exact-identity records：vascular bridge、glycomic roadmap、symptom network、psychosocial context |
 | 新增原始证据/PDF audit | 48_Verified_SHS_Original_Evidence_and_PDF_Audit_Addendum_SchemeB | — | 4 篇 context PDFs + 1 篇 telomere PDF 完成 page/hash/table audit；另有 pregnancy-specific bridge online/PMC verified；quarantine identity conflict |
 | 原文请求与下一审计门槛 | 49_Original_Source_Request_and_Next_Audit_Gate_SchemeB | — | PMID 28617662 telomere 原文已收到并完成 7 页/hash audit；当前 19-anchor set 不再需要用户上传原文 |
+| verified reference register | 50_Verified_Reference_Register_SchemeB | — | 19 条 exact-title/PMID/DOI identity-and-role entries；不是可直接替代期刊参考文献格式的 author list |
 
 ---
 
