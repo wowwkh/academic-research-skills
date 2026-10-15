@@ -37,6 +37,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 | 新增原始证据/PDF audit | 48_Verified_SHS_Original_Evidence_and_PDF_Audit_Addendum_SchemeB | — | 4 篇 context PDFs + 1 篇 telomere PDF 完成 page/hash/table audit；另有 pregnancy-specific bridge online/PMC verified；quarantine identity conflict |
 | 原文请求与下一审计门槛 | 49_Original_Source_Request_and_Next_Audit_Gate_SchemeB | — | PMID 28617662 telomere 原文已收到并完成 7 页/hash audit；当前 19-anchor set 不再需要用户上传原文 |
 | verified reference register | 50_Verified_Reference_Register_SchemeB | — | 19 条 exact-title/PMID/DOI identity-and-role entries；不是可直接替代期刊参考文献格式的 author list |
+| claim-to-source traceability | 51_Claim_to_Source_Traceability_Matrix_SchemeB | — | 将允许表述、来源定位与禁止过度推断逐条对应；不新增文献 |
 
 ---
 
@@ -97,6 +98,7 @@ https://github.com/wowwkh/academic-research-skills/tree/arena/01a09fcc-academic-
 - [x] 建立 manuscript source audit 和 safe replacement package
 - [x] 创建 source-audited narrative-only working manuscript `44_Source_Audited_Narrative_Review_Manuscript_SchemeB_2026-10-08.md`
 - [x] 完成 44 号 manuscript 的 exact-title/PMID/PubMed/DOI 与 evidence-safety audit（19/19 anchors PASS；quarantined identifiers absent；scope guardrails present）
+- [x] 建立 claim-to-source traceability matrix，逐条区分允许表述与禁止过度推断
 - [x] 建立 mitochondrial dynamics / immunometabolism / cGAS–STING / NLRP3 的 mechanistic transfer matrix，明确非 SHS direct evidence
 - [x] 根据三篇原始 PDF 完成公开证据范围内的队列对账；不要求通讯作者回复、公司名单或参与者级资料，无法公开判定的独立性按 unresolved overlap risk 处理
 - [x] 审计用户列出的 9+3 PubMed candidate set；将 exact identity、证据角色、scope exclusion 和 pending identity tuple 记录在 48 号 addendum
